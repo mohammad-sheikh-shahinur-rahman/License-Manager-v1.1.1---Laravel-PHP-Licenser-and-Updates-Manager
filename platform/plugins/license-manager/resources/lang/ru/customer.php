@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'или продолжить с',
+        'sign_in_with_envato' => 'Войти через Envato',
+        'login' => 'Войти',
+        'forgot_password' => 'Забыли пароль',
+        'forgot_your_password' => 'Забыли пароль?',
+        'reset_password' => 'Сбросить пароль',
+        'email' => 'Email',
+        'password' => 'Пароль',
+        'remember_me' => 'Запомнить меня',
+        'submit' => 'Отправить',
+        'back_to_login_page' => 'Вернуться на страницу входа',
+        'new_password' => 'Новый пароль',
+        'confirm_new_password' => 'Подтвердите новый пароль',
+        'update' => 'Обновить',
+    ],
+    'dashboard' => 'Панель управления',
+    'settings' => 'Настройки',
+    'basic_setting' => 'Основные настройки',
+    'basic_form' => [
+        'name' => 'Имя',
+        'client_id' => 'ID клиента',
+        'client_id_description' => 'Это ваш ID клиента, синхронизированный с Envato Market.',
+        'email' => 'Email',
+        'success' => 'Ваша информация была успешно обновлена.',
+    ],
+    'avatar_setting' => 'Настройки аватара',
+    'avatar_form' => [
+        'avatar' => 'Аватар',
+        'success' => 'Ваш аватар был успешно обновлен.',
+    ],
+    'password_setting' => 'Настройки пароля',
+    'password_form' => [
+        'old_password' => 'Старый пароль',
+        'new_password' => 'Новый пароль',
+        'new_password_confirmation' => 'Подтвердите новый пароль',
+        'success' => 'Ваш пароль был успешно обновлен.',
+    ],
+    'menu' => 'Меню',
+    'buy_products' => 'Купить продукты',
+    'last_login_at' => 'Последний вход',
+];

@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Неправильний метод або відсутні значення, будь ласка, перевірте.',
+        'product_id_incorrect' => 'Вказаний ID продукту неправильний, будь ласка, перевірте ще раз.',
+        'product_id_invalid' => 'Наданий ID продукту недійсний, будь ласка, перевірте.',
+        'product_id_exists' => 'Наданий ID продукту вже існує, будь ласка, перевірте ще раз.',
+        'product_not_added' => 'Сталася помилка, продукт не було додано.',
+        'product_not_found' => 'Продукт не знайдено.',
+        'product_already_status' => 'Продукт :name вже :status.',
+        'license_code_invalid' => 'Наданий код ліцензії недійсний, будь ласка, перевірте.',
+        'license_code_exists' => 'Наданий код ліцензії вже існує, будь ласка, перевірте ще раз.',
+        'license_not_exist' => 'Надана ліцензія не існує, будь ласка, перевірте ще раз.',
+        'license_code_incorrect' => 'Вказаний код ліцензії неправильний, будь ласка, перевірте ще раз.',
+        'license_not_added' => 'Сталася помилка, ліцензію не було додано.',
+        'license_not_edited' => 'Сталася помилка, ліцензію не було відредаговано.',
+        'license_not_deleted' => 'Ліцензію :code не було видалено, будь ласка, перевірте ще раз.',
+        'license_already_status' => 'Ліцензія :code вже :status.',
+        'client_email_invalid' => 'Надана адреса електронної пошти клієнта неправильна, будь ласка, перевірте.',
+        'no_search_keyword' => 'Не надано ключових слів для пошуку. Будь ласка, перевірте та спробуйте ще раз.',
+        'no_license_found' => 'Відповідну ліцензію не знайдено.',
+        'version_created' => 'Версію успішно створено/оновлено.',
+    ],
+    'success' => [
+        'product_added' => 'Новий продукт :name з ID :id було успішно додано.',
+        'product_status_changed' => 'Продукт :name позначено як :status.',
+        'license_added' => 'Нову ліцензію :product :code було успішно додано.',
+        'license_edited' => 'Ліцензію :code було успішно відредаговано.',
+        'license_deleted' => 'Ліцензію :code було успішно видалено.',
+        'license_status_changed' => 'Ліцензію :code було успішно :status.',
+        'activations_deactivated' => 'Ліцензію :code було успішно деактивовано.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Додано новий продукт <b>:name</b>.',
+        'product_status_changed' => 'Статус продукту <b>:name</b> змінено на :status.',
+        'license_added' => 'Додано нову ліцензію :product <b>:code</b>.',
+        'license_edited' => 'Ліцензію <b>:code</b> відредаговано.',
+        'license_deleted' => 'Ліцензію <b>:code</b> видалено.',
+        'license_status_changed' => 'Ліцензію <b>:code</b> :status.',
+        'activations_deactivated' => 'Активації ліцензії <b>:code</b> деактивовано.',
+    ],
+];

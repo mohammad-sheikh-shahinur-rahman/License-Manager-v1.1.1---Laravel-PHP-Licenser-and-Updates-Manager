@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => '잘못된 메서드 또는 누락된 값입니다. 확인하세요.',
+        'product_id_incorrect' => '지정된 제품 ID가 잘못되었습니다. 다시 확인하세요.',
+        'product_id_invalid' => '제공된 제품 ID가 유효하지 않습니다. 확인하세요.',
+        'product_id_exists' => '제공된 제품 ID가 이미 존재합니다. 다시 확인하세요.',
+        'product_not_added' => '오류가 발생했습니다. 제품이 추가되지 않았습니다.',
+        'product_not_found' => '제품을 찾을 수 없습니다.',
+        'product_already_status' => '제품 :name은(는) 이미 :status입니다.',
+        'license_code_invalid' => '제공된 라이선스 코드가 유효하지 않습니다. 확인하세요.',
+        'license_code_exists' => '제공된 라이선스 코드가 이미 존재합니다. 다시 확인하세요.',
+        'license_not_exist' => '제공된 라이선스가 존재하지 않습니다. 다시 확인하세요.',
+        'license_code_incorrect' => '지정된 라이선스 코드가 잘못되었습니다. 다시 확인하세요.',
+        'license_not_added' => '오류가 발생했습니다. 라이선스가 추가되지 않았습니다.',
+        'license_not_edited' => '오류가 발생했습니다. 라이선스가 편집되지 않았습니다.',
+        'license_not_deleted' => '라이선스 :code이(가) 삭제되지 않았습니다. 다시 확인하세요.',
+        'license_already_status' => '라이선스 :code은(는) 이미 :status입니다.',
+        'client_email_invalid' => '제공된 클라이언트 이메일 주소가 잘못되었습니다. 확인하세요.',
+        'no_search_keyword' => '검색을 위한 키워드가 제공되지 않았습니다. 확인하고 다시 시도하세요.',
+        'no_license_found' => '해당하는 라이선스를 찾을 수 없습니다.',
+        'version_created' => '버전이 성공적으로 생성/업데이트되었습니다.',
+    ],
+    'success' => [
+        'product_added' => 'ID :id를 가진 새 제품 :name이(가) 성공적으로 추가되었습니다.',
+        'product_status_changed' => '제품 :name이(가) :status(으)로 표시되었습니다.',
+        'license_added' => '새 :product 라이선스 :code이(가) 성공적으로 추가되었습니다.',
+        'license_edited' => '라이선스 :code이(가) 성공적으로 편집되었습니다.',
+        'license_deleted' => '라이선스 :code이(가) 성공적으로 삭제되었습니다.',
+        'license_status_changed' => '라이선스 :code이(가) 성공적으로 :status되었습니다.',
+        'activations_deactivated' => '라이선스 :code이(가) 성공적으로 비활성화되었습니다.',
+    ],
+    'activity_log' => [
+        'product_added' => '새 제품 <b>:name</b>이(가) 추가되었습니다.',
+        'product_status_changed' => '제품 <b>:name</b>의 상태가 :status(으)로 변경되었습니다.',
+        'license_added' => '새 :product 라이선스 <b>:code</b>이(가) 추가되었습니다.',
+        'license_edited' => '라이선스 <b>:code</b>이(가) 편집되었습니다.',
+        'license_deleted' => '라이선스 <b>:code</b>이(가) 삭제되었습니다.',
+        'license_status_changed' => '라이선스 <b>:code</b>이(가) :status되었습니다.',
+        'activations_deactivated' => '라이선스 <b>:code</b>의 활성화가 비활성화되었습니다.',
+    ],
+];

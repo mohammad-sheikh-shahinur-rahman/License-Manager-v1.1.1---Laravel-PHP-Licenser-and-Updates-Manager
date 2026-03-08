@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'ou continuar com',
+        'sign_in_with_envato' => 'Entrar com Envato',
+        'login' => 'Entrar',
+        'forgot_password' => 'Esqueci a senha',
+        'forgot_your_password' => 'Esqueceu sua senha?',
+        'reset_password' => 'Redefinir senha',
+        'email' => 'E-mail',
+        'password' => 'Senha',
+        'remember_me' => 'Lembrar-me',
+        'submit' => 'Enviar',
+        'back_to_login_page' => 'Voltar à página de login',
+        'new_password' => 'Nova senha',
+        'confirm_new_password' => 'Confirmar nova senha',
+        'update' => 'Atualizar',
+    ],
+    'dashboard' => 'Painel',
+    'settings' => 'Configurações',
+    'basic_setting' => 'Configurações básicas',
+    'basic_form' => [
+        'name' => 'Nome',
+        'client_id' => 'ID do cliente',
+        'client_id_description' => 'Este é o seu ID de cliente sincronizado do Envato Market.',
+        'email' => 'E-mail',
+        'success' => 'Suas informações foram atualizadas com sucesso.',
+    ],
+    'avatar_setting' => 'Configurações de avatar',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Seu avatar foi atualizado com sucesso.',
+    ],
+    'password_setting' => 'Configurações de senha',
+    'password_form' => [
+        'old_password' => 'Senha antiga',
+        'new_password' => 'Nova senha',
+        'new_password_confirmation' => 'Confirmar nova senha',
+        'success' => 'Sua senha foi atualizada com sucesso.',
+    ],
+    'menu' => 'Menu',
+    'buy_products' => 'Comprar produtos',
+    'last_login_at' => 'Último login em',
+];

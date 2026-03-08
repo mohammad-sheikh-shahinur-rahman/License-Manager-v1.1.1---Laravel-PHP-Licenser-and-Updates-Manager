@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => '或继续使用',
+        'sign_in_with_envato' => '使用 Envato 登录',
+        'login' => '登录',
+        'forgot_password' => '忘记密码',
+        'forgot_your_password' => '忘记密码？',
+        'reset_password' => '重置密码',
+        'email' => '电子邮件',
+        'password' => '密码',
+        'remember_me' => '记住我',
+        'submit' => '提交',
+        'back_to_login_page' => '返回登录页面',
+        'new_password' => '新密码',
+        'confirm_new_password' => '确认新密码',
+        'update' => '更新',
+    ],
+    'dashboard' => '仪表板',
+    'settings' => '设置',
+    'basic_setting' => '基本设置',
+    'basic_form' => [
+        'name' => '姓名',
+        'client_id' => '客户端 ID',
+        'client_id_description' => '这是从 Envato Market 同步的客户端 ID。',
+        'email' => '电子邮件',
+        'success' => '您的信息已成功更新。',
+    ],
+    'avatar_setting' => '头像设置',
+    'avatar_form' => [
+        'avatar' => '头像',
+        'success' => '您的头像已成功更新。',
+    ],
+    'password_setting' => '密码设置',
+    'password_form' => [
+        'old_password' => '旧密码',
+        'new_password' => '新密码',
+        'new_password_confirmation' => '确认新密码',
+        'success' => '您的密码已成功更新。',
+    ],
+    'menu' => '菜单',
+    'buy_products' => '购买产品',
+    'last_login_at' => '上次登录时间',
+];

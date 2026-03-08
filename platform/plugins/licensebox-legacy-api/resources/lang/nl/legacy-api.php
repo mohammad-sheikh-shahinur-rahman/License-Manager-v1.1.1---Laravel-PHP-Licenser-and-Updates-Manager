@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Onjuiste methode of ontbrekende waarden, controleer alstublieft.',
+        'product_id_incorrect' => 'Het opgegeven product-ID is onjuist, controleer nogmaals.',
+        'product_id_invalid' => 'Het opgegeven product-ID is ongeldig, controleer alstublieft.',
+        'product_id_exists' => 'Het opgegeven product-ID bestaat al, controleer nogmaals.',
+        'product_not_added' => 'Er is een fout opgetreden, het product is niet toegevoegd.',
+        'product_not_found' => 'Product niet gevonden.',
+        'product_already_status' => 'Product :name is al :status.',
+        'license_code_invalid' => 'De opgegeven licentiecode is ongeldig, controleer alstublieft.',
+        'license_code_exists' => 'De opgegeven licentiecode bestaat al, controleer nogmaals.',
+        'license_not_exist' => 'De opgegeven licentie bestaat niet, controleer nogmaals.',
+        'license_code_incorrect' => 'De opgegeven licentiecode is onjuist, controleer nogmaals.',
+        'license_not_added' => 'Er is een fout opgetreden, de licentie is niet toegevoegd.',
+        'license_not_edited' => 'Er is een fout opgetreden, de licentie is niet bewerkt.',
+        'license_not_deleted' => 'Licentie :code is niet verwijderd, controleer nogmaals.',
+        'license_already_status' => 'Licentie :code is al :status.',
+        'client_email_invalid' => 'Het opgegeven e-mailadres van de klant is onjuist, controleer alstublieft.',
+        'no_search_keyword' => 'Er zijn geen zoekwoorden opgegeven voor de zoekopdracht. Controleer en probeer opnieuw.',
+        'no_license_found' => 'Geen overeenkomende licentie gevonden.',
+        'version_created' => 'Versie succesvol aangemaakt/bijgewerkt.',
+    ],
+    'success' => [
+        'product_added' => 'Nieuw product :name met ID :id is succesvol toegevoegd.',
+        'product_status_changed' => 'Product :name gemarkeerd als :status.',
+        'license_added' => 'Nieuwe :product licentie :code is succesvol toegevoegd.',
+        'license_edited' => 'Licentie :code is succesvol bewerkt.',
+        'license_deleted' => 'Licentie :code is succesvol verwijderd.',
+        'license_status_changed' => 'Licentie :code is succesvol :status.',
+        'activations_deactivated' => 'Licentie :code is succesvol gedeactiveerd.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Nieuw product <b>:name</b> toegevoegd.',
+        'product_status_changed' => 'Productstatus <b>:name</b> gewijzigd naar :status.',
+        'license_added' => 'Nieuwe :product licentie <b>:code</b> toegevoegd.',
+        'license_edited' => 'Licentie <b>:code</b> bewerkt.',
+        'license_deleted' => 'Licentie <b>:code</b> verwijderd.',
+        'license_status_changed' => 'Licentie <b>:code</b> :status.',
+        'activations_deactivated' => 'Activeringen van licentie <b>:code</b> gedeactiveerd.',
+    ],
+];

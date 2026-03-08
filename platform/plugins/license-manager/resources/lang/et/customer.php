@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'või jätka järgnevaga',
+        'sign_in_with_envato' => 'Logi sisse Envatoga',
+        'login' => 'Logi sisse',
+        'forgot_password' => 'Unustasid parooli',
+        'forgot_your_password' => 'Unustasid oma parooli?',
+        'reset_password' => 'Lähtesta parool',
+        'email' => 'E-post',
+        'password' => 'Parool',
+        'remember_me' => 'Mäleta mind',
+        'submit' => 'Esita',
+        'back_to_login_page' => 'Tagasi sisselogimislehele',
+        'new_password' => 'Uus parool',
+        'confirm_new_password' => 'Kinnita uus parool',
+        'update' => 'Uuenda',
+    ],
+    'dashboard' => 'Töölaud',
+    'settings' => 'Seaded',
+    'basic_setting' => 'Põhiseade',
+    'basic_form' => [
+        'name' => 'Nimi',
+        'client_id' => 'Kliendi ID',
+        'client_id_description' => 'See on teie kliendi ID, mis on sünkroonitud Envato Marketist.',
+        'email' => 'E-post',
+        'success' => 'Teie teave on edukalt uuendatud.',
+    ],
+    'avatar_setting' => 'Avatari seade',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Teie avatar on edukalt uuendatud.',
+    ],
+    'password_setting' => 'Parooli seade',
+    'password_form' => [
+        'old_password' => 'Vana parool',
+        'new_password' => 'Uus parool',
+        'new_password_confirmation' => 'Kinnita uus parool',
+        'success' => 'Teie parool on edukalt uuendatud.',
+    ],
+    'menu' => 'Menüü',
+    'buy_products' => 'Osta tooteid',
+    'last_login_at' => 'Viimati sisselogitud',
+];

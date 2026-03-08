@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'ali nadaljuj z',
+        'sign_in_with_envato' => 'Prijavi se z Envato',
+        'login' => 'Prijava',
+        'forgot_password' => 'Pozabljeno geslo',
+        'forgot_your_password' => 'Ste pozabili geslo?',
+        'reset_password' => 'Ponastavi geslo',
+        'email' => 'E-pošta',
+        'password' => 'Geslo',
+        'remember_me' => 'Zapomni si me',
+        'submit' => 'Pošlji',
+        'back_to_login_page' => 'Nazaj na prijavno stran',
+        'new_password' => 'Novo geslo',
+        'confirm_new_password' => 'Potrdite novo geslo',
+        'update' => 'Posodobi',
+    ],
+    'dashboard' => 'Nadzorna plošča',
+    'settings' => 'Nastavitve',
+    'basic_setting' => 'Osnovne nastavitve',
+    'basic_form' => [
+        'name' => 'Ime',
+        'client_id' => 'ID stranke',
+        'client_id_description' => 'To je vaš ID stranke sinhroniziran iz Envato Market.',
+        'email' => 'E-pošta',
+        'success' => 'Vaši podatki so bili uspešno posodobljeni.',
+    ],
+    'avatar_setting' => 'Nastavitve avatarja',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Vaš avatar je bil uspešno posodobljen.',
+    ],
+    'password_setting' => 'Nastavitve gesla',
+    'password_form' => [
+        'old_password' => 'Staro geslo',
+        'new_password' => 'Novo geslo',
+        'new_password_confirmation' => 'Potrdite novo geslo',
+        'success' => 'Vaše geslo je bilo uspešno posodobljeno.',
+    ],
+    'menu' => 'Meni',
+    'buy_products' => 'Kupi izdelke',
+    'last_login_at' => 'Zadnja prijava',
+];

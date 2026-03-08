@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'atau lanjutkan dengan',
+        'sign_in_with_envato' => 'Masuk dengan Envato',
+        'login' => 'Masuk',
+        'forgot_password' => 'Lupa Kata Sandi',
+        'forgot_your_password' => 'Lupa kata sandi Anda?',
+        'reset_password' => 'Atur Ulang Kata Sandi',
+        'email' => 'Email',
+        'password' => 'Kata Sandi',
+        'remember_me' => 'Ingat saya',
+        'submit' => 'Kirim',
+        'back_to_login_page' => 'Kembali ke halaman login',
+        'new_password' => 'Kata Sandi Baru',
+        'confirm_new_password' => 'Konfirmasi Kata Sandi Baru',
+        'update' => 'Perbarui',
+    ],
+    'dashboard' => 'Dasbor',
+    'settings' => 'Pengaturan',
+    'basic_setting' => 'Pengaturan Dasar',
+    'basic_form' => [
+        'name' => 'Nama',
+        'client_id' => 'ID Klien',
+        'client_id_description' => 'Ini adalah ID klien Anda yang disinkronkan dari Envato Market.',
+        'email' => 'Email',
+        'success' => 'Informasi Anda telah berhasil diperbarui.',
+    ],
+    'avatar_setting' => 'Pengaturan Avatar',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Avatar Anda telah berhasil diperbarui.',
+    ],
+    'password_setting' => 'Pengaturan Kata Sandi',
+    'password_form' => [
+        'old_password' => 'Kata Sandi Lama',
+        'new_password' => 'Kata Sandi Baru',
+        'new_password_confirmation' => 'Konfirmasi Kata Sandi Baru',
+        'success' => 'Kata sandi Anda telah berhasil diperbarui.',
+    ],
+    'menu' => 'Menu',
+    'buy_products' => 'Beli Produk',
+    'last_login_at' => 'Login Terakhir Pada',
+];

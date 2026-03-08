@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Nieprawidłowa metoda lub brakujące wartości, proszę sprawdzić.',
+        'product_id_incorrect' => 'Podany identyfikator produktu jest nieprawidłowy, proszę sprawdzić ponownie.',
+        'product_id_invalid' => 'Podany identyfikator produktu jest nieprawidłowy, proszę sprawdzić.',
+        'product_id_exists' => 'Podany identyfikator produktu już istnieje, proszę sprawdzić ponownie.',
+        'product_not_added' => 'Wystąpił błąd, produkt nie został dodany.',
+        'product_not_found' => 'Produkt nie został znaleziony.',
+        'product_already_status' => 'Produkt :name jest już :status.',
+        'license_code_invalid' => 'Podany kod licencji jest nieprawidłowy, proszę sprawdzić.',
+        'license_code_exists' => 'Podany kod licencji już istnieje, proszę sprawdzić ponownie.',
+        'license_not_exist' => 'Podana licencja nie istnieje, proszę sprawdzić ponownie.',
+        'license_code_incorrect' => 'Podany kod licencji jest nieprawidłowy, proszę sprawdzić ponownie.',
+        'license_not_added' => 'Wystąpił błąd, licencja nie została dodana.',
+        'license_not_edited' => 'Wystąpił błąd, licencja nie została edytowana.',
+        'license_not_deleted' => 'Licencja :code nie została usunięta, proszę sprawdzić ponownie.',
+        'license_already_status' => 'Licencja :code jest już :status.',
+        'client_email_invalid' => 'Podany adres e-mail klienta jest nieprawidłowy, proszę sprawdzić.',
+        'no_search_keyword' => 'Nie podano słów kluczowych do wyszukiwania. Proszę sprawdzić i spróbować ponownie.',
+        'no_license_found' => 'Nie znaleziono odpowiedniej licencji.',
+        'version_created' => 'Wersja została pomyślnie utworzona/zaktualizowana.',
+    ],
+    'success' => [
+        'product_added' => 'Nowy produkt :name o identyfikatorze :id został pomyślnie dodany.',
+        'product_status_changed' => 'Produkt :name oznaczony jako :status.',
+        'license_added' => 'Nowa licencja :product :code została pomyślnie dodana.',
+        'license_edited' => 'Licencja :code została pomyślnie edytowana.',
+        'license_deleted' => 'Licencja :code została pomyślnie usunięta.',
+        'license_status_changed' => 'Licencja :code została pomyślnie :status.',
+        'activations_deactivated' => 'Licencja :code została pomyślnie dezaktywowana.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Dodano nowy produkt <b>:name</b>.',
+        'product_status_changed' => 'Status produktu <b>:name</b> zmieniony na :status.',
+        'license_added' => 'Dodano nową licencję :product <b>:code</b>.',
+        'license_edited' => 'Licencja <b>:code</b> została edytowana.',
+        'license_deleted' => 'Licencja <b>:code</b> została usunięta.',
+        'license_status_changed' => 'Licencja <b>:code</b> :status.',
+        'activations_deactivated' => 'Aktywacje licencji <b>:code</b> zostały dezaktywowane.',
+    ],
+];

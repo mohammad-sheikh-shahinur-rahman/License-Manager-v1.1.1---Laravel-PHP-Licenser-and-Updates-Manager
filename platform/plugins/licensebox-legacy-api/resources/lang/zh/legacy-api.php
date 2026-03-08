@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => '方法不正确或缺少值，请检查。',
+        'product_id_incorrect' => '指定的产品ID不正确，请重新检查。',
+        'product_id_invalid' => '提供的产品ID无效，请检查。',
+        'product_id_exists' => '提供的产品ID已存在，请重新检查。',
+        'product_not_added' => '发生错误，产品未添加。',
+        'product_not_found' => '未找到产品。',
+        'product_already_status' => '产品 :name 已经是 :status。',
+        'license_code_invalid' => '提供的许可证代码无效，请检查。',
+        'license_code_exists' => '提供的许可证代码已存在，请重新检查。',
+        'license_not_exist' => '提供的许可证不存在，请重新检查。',
+        'license_code_incorrect' => '指定的许可证代码不正确，请重新检查。',
+        'license_not_added' => '发生错误，许可证未添加。',
+        'license_not_edited' => '发生错误，许可证未编辑。',
+        'license_not_deleted' => '许可证 :code 未删除，请重新检查。',
+        'license_already_status' => '许可证 :code 已经是 :status。',
+        'client_email_invalid' => '提供的客户电子邮件地址不正确，请检查。',
+        'no_search_keyword' => '未提供搜索关键字。请检查并重试。',
+        'no_license_found' => '未找到相应的许可证。',
+        'version_created' => '版本创建/更新成功。',
+    ],
+    'success' => [
+        'product_added' => '新产品 :name（ID :id）已成功添加。',
+        'product_status_changed' => '产品 :name 标记为 :status。',
+        'license_added' => '新 :product 许可证 :code 已成功添加。',
+        'license_edited' => '许可证 :code 已成功编辑。',
+        'license_deleted' => '许可证 :code 已成功删除。',
+        'license_status_changed' => '许可证 :code 已成功 :status。',
+        'activations_deactivated' => '许可证 :code 已成功停用。',
+    ],
+    'activity_log' => [
+        'product_added' => '已添加新产品 <b>:name</b>。',
+        'product_status_changed' => '产品 <b>:name</b> 状态已更改为 :status。',
+        'license_added' => '已添加新 :product 许可证 <b>:code</b>。',
+        'license_edited' => '许可证 <b>:code</b> 已编辑。',
+        'license_deleted' => '许可证 <b>:code</b> 已删除。',
+        'license_status_changed' => '许可证 <b>:code</b> :status。',
+        'activations_deactivated' => '许可证 <b>:code</b> 的激活已停用。',
+    ],
+];

@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'atau teruskan dengan',
+        'sign_in_with_envato' => 'Log masuk dengan Envato',
+        'login' => 'Log Masuk',
+        'forgot_password' => 'Lupa Kata Laluan',
+        'forgot_your_password' => 'Lupa kata laluan anda?',
+        'reset_password' => 'Tetapkan Semula Kata Laluan',
+        'email' => 'E-mel',
+        'password' => 'Kata Laluan',
+        'remember_me' => 'Ingat saya',
+        'submit' => 'Hantar',
+        'back_to_login_page' => 'Kembali ke halaman log masuk',
+        'new_password' => 'Kata Laluan Baharu',
+        'confirm_new_password' => 'Sahkan Kata Laluan Baharu',
+        'update' => 'Kemas Kini',
+    ],
+    'dashboard' => 'Papan Pemuka',
+    'settings' => 'Tetapan',
+    'basic_setting' => 'Tetapan Asas',
+    'basic_form' => [
+        'name' => 'Nama',
+        'client_id' => 'ID Klien',
+        'client_id_description' => 'Ini adalah ID klien anda yang disegerakkan dari Envato Market.',
+        'email' => 'E-mel',
+        'success' => 'Maklumat anda telah berjaya dikemas kini.',
+    ],
+    'avatar_setting' => 'Tetapan Avatar',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Avatar anda telah berjaya dikemas kini.',
+    ],
+    'password_setting' => 'Tetapan Kata Laluan',
+    'password_form' => [
+        'old_password' => 'Kata Laluan Lama',
+        'new_password' => 'Kata Laluan Baharu',
+        'new_password_confirmation' => 'Sahkan Kata Laluan Baharu',
+        'success' => 'Kata laluan anda telah berjaya dikemas kini.',
+    ],
+    'menu' => 'Menu',
+    'buy_products' => 'Beli Produk',
+    'last_login_at' => 'Log Masuk Terakhir Pada',
+];

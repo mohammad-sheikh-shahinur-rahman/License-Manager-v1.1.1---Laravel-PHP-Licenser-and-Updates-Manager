@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'of ga verder met',
+        'sign_in_with_envato' => 'Inloggen met Envato',
+        'login' => 'Inloggen',
+        'forgot_password' => 'Wachtwoord vergeten',
+        'forgot_your_password' => 'Wachtwoord vergeten?',
+        'reset_password' => 'Wachtwoord opnieuw instellen',
+        'email' => 'E-mail',
+        'password' => 'Wachtwoord',
+        'remember_me' => 'Onthoud mij',
+        'submit' => 'Verzenden',
+        'back_to_login_page' => 'Terug naar inlogpagina',
+        'new_password' => 'Nieuw wachtwoord',
+        'confirm_new_password' => 'Bevestig nieuw wachtwoord',
+        'update' => 'Bijwerken',
+    ],
+    'dashboard' => 'Dashboard',
+    'settings' => 'Instellingen',
+    'basic_setting' => 'Basisinstellingen',
+    'basic_form' => [
+        'name' => 'Naam',
+        'client_id' => 'Client-ID',
+        'client_id_description' => 'Dit is uw client-ID gesynchroniseerd vanaf Envato Market.',
+        'email' => 'E-mail',
+        'success' => 'Uw gegevens zijn succesvol bijgewerkt.',
+    ],
+    'avatar_setting' => 'Avatar-instellingen',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Uw avatar is succesvol bijgewerkt.',
+    ],
+    'password_setting' => 'Wachtwoordinstellingen',
+    'password_form' => [
+        'old_password' => 'Oud wachtwoord',
+        'new_password' => 'Nieuw wachtwoord',
+        'new_password_confirmation' => 'Bevestig nieuw wachtwoord',
+        'success' => 'Uw wachtwoord is succesvol bijgewerkt.',
+    ],
+    'menu' => 'Menu',
+    'buy_products' => 'Producten kopen',
+    'last_login_at' => 'Laatst ingelogd op',
+];

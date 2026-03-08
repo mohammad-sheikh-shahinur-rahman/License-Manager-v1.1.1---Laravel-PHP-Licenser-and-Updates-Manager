@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Metodă incorectă sau valori lipsă, vă rugăm să verificați.',
+        'product_id_incorrect' => 'ID-ul produsului specificat este incorect, vă rugăm să verificați din nou.',
+        'product_id_invalid' => 'ID-ul produsului furnizat este invalid, vă rugăm să verificați.',
+        'product_id_exists' => 'ID-ul produsului furnizat există deja, vă rugăm să verificați din nou.',
+        'product_not_added' => 'A apărut o eroare, produsul nu a fost adăugat.',
+        'product_not_found' => 'Produsul nu a fost găsit.',
+        'product_already_status' => 'Produsul :name este deja :status.',
+        'license_code_invalid' => 'Codul de licență furnizat este invalid, vă rugăm să verificați.',
+        'license_code_exists' => 'Codul de licență furnizat există deja, vă rugăm să verificați din nou.',
+        'license_not_exist' => 'Licența furnizată nu există, vă rugăm să verificați din nou.',
+        'license_code_incorrect' => 'Codul de licență specificat este incorect, vă rugăm să verificați din nou.',
+        'license_not_added' => 'A apărut o eroare, licența nu a fost adăugată.',
+        'license_not_edited' => 'A apărut o eroare, licența nu a fost editată.',
+        'license_not_deleted' => 'Licența :code nu a fost ștearsă, vă rugăm să verificați din nou.',
+        'license_already_status' => 'Licența :code este deja :status.',
+        'client_email_invalid' => 'Adresa de e-mail a clientului furnizată este incorectă, vă rugăm să verificați.',
+        'no_search_keyword' => 'Nu au fost furnizate cuvinte cheie pentru căutare. Vă rugăm să verificați și să încercați din nou.',
+        'no_license_found' => 'Nu a fost găsită nicio licență corespunzătoare.',
+        'version_created' => 'Versiune creată/actualizată cu succes.',
+    ],
+    'success' => [
+        'product_added' => 'Produsul nou :name cu ID-ul :id a fost adăugat cu succes.',
+        'product_status_changed' => 'Produsul :name marcat ca :status.',
+        'license_added' => 'Licența :product nouă :code a fost adăugată cu succes.',
+        'license_edited' => 'Licența :code a fost editată cu succes.',
+        'license_deleted' => 'Licența :code a fost ștearsă cu succes.',
+        'license_status_changed' => 'Licența :code a fost :status cu succes.',
+        'activations_deactivated' => 'Licența :code a fost dezactivată cu succes.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Produs nou <b>:name</b> adăugat.',
+        'product_status_changed' => 'Starea produsului <b>:name</b> schimbată în :status.',
+        'license_added' => 'Licență :product nouă <b>:code</b> adăugată.',
+        'license_edited' => 'Licența <b>:code</b> editată.',
+        'license_deleted' => 'Licența <b>:code</b> ștearsă.',
+        'license_status_changed' => 'Licența <b>:code</b> :status.',
+        'activations_deactivated' => 'Activările licenței <b>:code</b> dezactivate.',
+    ],
+];

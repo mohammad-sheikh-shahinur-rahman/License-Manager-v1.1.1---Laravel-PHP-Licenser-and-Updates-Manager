@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'ან გააგრძელეთ',
+        'sign_in_with_envato' => 'შესვლა Envato-ს მეშვეობით',
+        'login' => 'შესვლა',
+        'forgot_password' => 'დაგავიწყდა პაროლი',
+        'forgot_your_password' => 'დაგავიწყდათ პაროლი?',
+        'reset_password' => 'პაროლის აღდგენა',
+        'email' => 'ელ-ფოსტა',
+        'password' => 'პაროლი',
+        'remember_me' => 'დამახსოვრება',
+        'submit' => 'გაგზავნა',
+        'back_to_login_page' => 'დაბრუნება შესვლის გვერდზე',
+        'new_password' => 'ახალი პაროლი',
+        'confirm_new_password' => 'დაადასტურეთ ახალი პაროლი',
+        'update' => 'განახლება',
+    ],
+    'dashboard' => 'დაფა',
+    'settings' => 'პარამეტრები',
+    'basic_setting' => 'ძირითადი პარამეტრები',
+    'basic_form' => [
+        'name' => 'სახელი',
+        'client_id' => 'კლიენტის ID',
+        'client_id_description' => 'ეს არის თქვენი კლიენტის ID სინქრონიზებული Envato Market-დან.',
+        'email' => 'ელ-ფოსტა',
+        'success' => 'თქვენი ინფორმაცია წარმატებით განახლდა.',
+    ],
+    'avatar_setting' => 'ავატარის პარამეტრები',
+    'avatar_form' => [
+        'avatar' => 'ავატარი',
+        'success' => 'თქვენი ავატარი წარმატებით განახლდა.',
+    ],
+    'password_setting' => 'პაროლის პარამეტრები',
+    'password_form' => [
+        'old_password' => 'ძველი პაროლი',
+        'new_password' => 'ახალი პაროლი',
+        'new_password_confirmation' => 'დაადასტურეთ ახალი პაროლი',
+        'success' => 'თქვენი პაროლი წარმატებით განახლდა.',
+    ],
+    'menu' => 'მენიუ',
+    'buy_products' => 'პროდუქტების ყიდვა',
+    'last_login_at' => 'ბოლო შესვლა',
+];

@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Neteisingas metodas arba trūksta reikšmių, patikrinkite.',
+        'product_id_incorrect' => 'Nurodytas produkto ID neteisingas, patikrinkite dar kartą.',
+        'product_id_invalid' => 'Pateiktas produkto ID negalioja, patikrinkite.',
+        'product_id_exists' => 'Pateiktas produkto ID jau egzistuoja, patikrinkite dar kartą.',
+        'product_not_added' => 'Įvyko klaida, produktas nebuvo pridėtas.',
+        'product_not_found' => 'Produktas nerastas.',
+        'product_already_status' => 'Produktas :name jau yra :status.',
+        'license_code_invalid' => 'Pateiktas licencijos kodas negalioja, patikrinkite.',
+        'license_code_exists' => 'Pateiktas licencijos kodas jau egzistuoja, patikrinkite dar kartą.',
+        'license_not_exist' => 'Pateikta licencija neegzistuoja, patikrinkite dar kartą.',
+        'license_code_incorrect' => 'Nurodytas licencijos kodas neteisingas, patikrinkite dar kartą.',
+        'license_not_added' => 'Įvyko klaida, licencija nebuvo pridėta.',
+        'license_not_edited' => 'Įvyko klaida, licencija nebuvo redaguota.',
+        'license_not_deleted' => 'Licencija :code nebuvo ištrinta, patikrinkite dar kartą.',
+        'license_already_status' => 'Licencija :code jau yra :status.',
+        'client_email_invalid' => 'Pateiktas kliento el. pašto adresas neteisingas, patikrinkite.',
+        'no_search_keyword' => 'Nebuvo pateikta paieškos raktažodžių. Patikrinkite ir bandykite dar kartą.',
+        'no_license_found' => 'Nerasta atitinkančios licencijos.',
+        'version_created' => 'Versija sėkmingai sukurta/atnaujinta.',
+    ],
+    'success' => [
+        'product_added' => 'Naujas produktas :name su ID :id sėkmingai pridėtas.',
+        'product_status_changed' => 'Produktas :name pažymėtas kaip :status.',
+        'license_added' => 'Nauja :product licencija :code sėkmingai pridėta.',
+        'license_edited' => 'Licencija :code sėkmingai redaguota.',
+        'license_deleted' => 'Licencija :code sėkmingai ištrinta.',
+        'license_status_changed' => 'Licencija :code sėkmingai :status.',
+        'activations_deactivated' => 'Licencija :code sėkmingai deaktyvuota.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Pridėtas naujas produktas <b>:name</b>.',
+        'product_status_changed' => 'Produkto <b>:name</b> būsena pakeista į :status.',
+        'license_added' => 'Pridėta nauja :product licencija <b>:code</b>.',
+        'license_edited' => 'Licencija <b>:code</b> redaguota.',
+        'license_deleted' => 'Licencija <b>:code</b> ištrinta.',
+        'license_status_changed' => 'Licencija <b>:code</b> :status.',
+        'activations_deactivated' => 'Licencijos <b>:code</b> aktyvacijos deaktyvuotos.',
+    ],
+];

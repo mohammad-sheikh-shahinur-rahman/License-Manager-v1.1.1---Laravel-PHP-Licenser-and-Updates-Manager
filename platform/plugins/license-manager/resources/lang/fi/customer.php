@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'tai jatka seuraavalla',
+        'sign_in_with_envato' => 'Kirjaudu Envatolla',
+        'login' => 'Kirjaudu',
+        'forgot_password' => 'Unohditko salasanan',
+        'forgot_your_password' => 'Unohditko salasanasi?',
+        'reset_password' => 'Nollaa salasana',
+        'email' => 'Sähköposti',
+        'password' => 'Salasana',
+        'remember_me' => 'Muista minut',
+        'submit' => 'Lähetä',
+        'back_to_login_page' => 'Takaisin kirjautumissivulle',
+        'new_password' => 'Uusi salasana',
+        'confirm_new_password' => 'Vahvista uusi salasana',
+        'update' => 'Päivitä',
+    ],
+    'dashboard' => 'Hallintapaneeli',
+    'settings' => 'Asetukset',
+    'basic_setting' => 'Perusasetus',
+    'basic_form' => [
+        'name' => 'Nimi',
+        'client_id' => 'Asiakastunnus',
+        'client_id_description' => 'Tämä on asiakastunnuksesi, joka on synkronoitu Envato Marketista.',
+        'email' => 'Sähköposti',
+        'success' => 'Tietosi on päivitetty onnistuneesti.',
+    ],
+    'avatar_setting' => 'Avatar-asetus',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Avatarisi on päivitetty onnistuneesti.',
+    ],
+    'password_setting' => 'Salasana-asetus',
+    'password_form' => [
+        'old_password' => 'Vanha salasana',
+        'new_password' => 'Uusi salasana',
+        'new_password_confirmation' => 'Vahvista uusi salasana',
+        'success' => 'Salasanasi on päivitetty onnistuneesti.',
+    ],
+    'menu' => 'Valikko',
+    'buy_products' => 'Osta tuotteita',
+    'last_login_at' => 'Viimeksi kirjautunut',
+];

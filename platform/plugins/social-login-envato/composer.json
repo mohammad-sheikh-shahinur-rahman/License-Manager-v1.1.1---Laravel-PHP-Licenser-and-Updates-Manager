@@ -1,0 +1,14 @@
+{
+    "name": "botble/social-login-envato",
+    "description": "Envato OAuth provider for Botble Social Login",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Botble\\SocialLoginEnvato\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

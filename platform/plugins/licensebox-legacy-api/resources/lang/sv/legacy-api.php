@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Felaktig metod eller saknade värden, vänligen kontrollera.',
+        'product_id_incorrect' => 'Det angivna produkt-ID:t är felaktigt, vänligen kontrollera igen.',
+        'product_id_invalid' => 'Det angivna produkt-ID:t är ogiltigt, vänligen kontrollera.',
+        'product_id_exists' => 'Det angivna produkt-ID:t finns redan, vänligen kontrollera igen.',
+        'product_not_added' => 'Ett fel uppstod, produkten lades inte till.',
+        'product_not_found' => 'Produkt hittades inte.',
+        'product_already_status' => 'Produkt :name är redan :status.',
+        'license_code_invalid' => 'Den angivna licenskoden är ogiltig, vänligen kontrollera.',
+        'license_code_exists' => 'Den angivna licenskoden finns redan, vänligen kontrollera igen.',
+        'license_not_exist' => 'Den angivna licensen finns inte, vänligen kontrollera igen.',
+        'license_code_incorrect' => 'Den angivna licenskoden är felaktig, vänligen kontrollera igen.',
+        'license_not_added' => 'Ett fel uppstod, licensen lades inte till.',
+        'license_not_edited' => 'Ett fel uppstod, licensen redigerades inte.',
+        'license_not_deleted' => 'Licens :code raderades inte, vänligen kontrollera igen.',
+        'license_already_status' => 'Licens :code är redan :status.',
+        'client_email_invalid' => 'Den angivna klientens e-postadress är felaktig, vänligen kontrollera.',
+        'no_search_keyword' => 'Inga sökord angavs för sökningen. Vänligen kontrollera och försök igen.',
+        'no_license_found' => 'Ingen motsvarande licens hittades.',
+        'version_created' => 'Version skapad/uppdaterad framgångsrikt.',
+    ],
+    'success' => [
+        'product_added' => 'Ny produkt :name med ID :id lades till framgångsrikt.',
+        'product_status_changed' => 'Produkt :name markerad som :status.',
+        'license_added' => 'Ny :product licens :code lades till framgångsrikt.',
+        'license_edited' => 'Licens :code redigerades framgångsrikt.',
+        'license_deleted' => 'Licens :code raderades framgångsrikt.',
+        'license_status_changed' => 'Licens :code :status framgångsrikt.',
+        'activations_deactivated' => 'Licens :code deaktiverades framgångsrikt.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Ny produkt <b>:name</b> tillagd.',
+        'product_status_changed' => 'Produktstatus <b>:name</b> ändrad till :status.',
+        'license_added' => 'Ny :product licens <b>:code</b> tillagd.',
+        'license_edited' => 'Licens <b>:code</b> redigerad.',
+        'license_deleted' => 'Licens <b>:code</b> raderad.',
+        'license_status_changed' => 'Licens <b>:code</b> :status.',
+        'activations_deactivated' => 'Aktiveringar av licens <b>:code</b> deaktiverade.',
+    ],
+];

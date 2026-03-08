@@ -1,0 +1,58 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'or continue with',
+        'social_login_hint' => 'If you haven\'t had an account on this site yet, please sign in using a social account.',
+        'login' => 'Login',
+        'forgot_password' => [
+            'title' => 'Forgot Password',
+            'reset_throttled' => 'Please wait before retrying.',
+            'invalid_user' => 'We can\'t find a user with that email address.',
+            'something_went_wrong' => 'Something went wrong.',
+            'emailed_reset_link' => 'We have emailed your password reset link.',
+        ],
+        'forgot_your_password' => 'Forgot your password?',
+        'reset_password' => 'Reset Password',
+        'reset_password_messages' => [
+            'reset_throttled' => 'Please wait before retrying.',
+            'invalid_token' => 'This password reset token is invalid.',
+            'invalid_user' => 'We can\'t find a user with that email address.',
+            'something_went_wrong' => 'Something went wrong.',
+            'password_reset_success' => 'Your password has been reset.',
+        ],
+        'email' => 'Email',
+        'password' => 'Password',
+        'remember_me' => 'Remember me',
+        'submit' => 'Submit',
+        'back_to_login_page' => 'Back to login page',
+        'new_password' => 'New Password',
+        'confirm_new_password' => 'Confirm New Password',
+        'update' => 'Update',
+    ],
+    'dashboard' => 'Dashboard',
+    'settings' => 'Settings',
+    'basic_setting' => 'Basic Setting',
+    'basic_form' => [
+        'name' => 'Name',
+        'client_id' => 'Client ID',
+        'client_id_description' => 'This is your client ID synced from Envato Market.',
+        'email' => 'Email',
+        'success' => 'Your information has been updated successfully.',
+    ],
+    'avatar_setting' => 'Avatar Setting',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Your avatar has been updated successfully.',
+    ],
+    'password_setting' => 'Password Setting',
+    'password_form' => [
+        'old_password' => 'Old Password',
+        'new_password' => 'New Password',
+        'new_password_confirmation' => 'Confirm New Password',
+        'success' => 'Your password has been updated successfully.',
+    ],
+    'menu' => 'Menu',
+    'buy_products' => 'Buy Products',
+    'last_login_at' => 'Last Login At',
+];

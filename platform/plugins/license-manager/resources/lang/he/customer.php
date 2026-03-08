@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'או המשך עם',
+        'sign_in_with_envato' => 'התחבר עם Envato',
+        'login' => 'התחברות',
+        'forgot_password' => 'שכחת סיסמה',
+        'forgot_your_password' => 'שכחת את הסיסמה שלך?',
+        'reset_password' => 'איפוס סיסמה',
+        'email' => 'אימייל',
+        'password' => 'סיסמה',
+        'remember_me' => 'זכור אותי',
+        'submit' => 'שלח',
+        'back_to_login_page' => 'חזרה לדף התחברות',
+        'new_password' => 'סיסמה חדשה',
+        'confirm_new_password' => 'אשר סיסמה חדשה',
+        'update' => 'עדכן',
+    ],
+    'dashboard' => 'לוח בקרה',
+    'settings' => 'הגדרות',
+    'basic_setting' => 'הגדרות בסיסיות',
+    'basic_form' => [
+        'name' => 'שם',
+        'client_id' => 'מזהה לקוח',
+        'client_id_description' => 'זהו מזהה הלקוח שלך מסונכרן מ-Envato Market.',
+        'email' => 'אימייל',
+        'success' => 'המידע שלך עודכן בהצלחה.',
+    ],
+    'avatar_setting' => 'הגדרות תמונת פרופיל',
+    'avatar_form' => [
+        'avatar' => 'תמונת פרופיל',
+        'success' => 'תמונת הפרופיל שלך עודכנה בהצלחה.',
+    ],
+    'password_setting' => 'הגדרות סיסמה',
+    'password_form' => [
+        'old_password' => 'סיסמה ישנה',
+        'new_password' => 'סיסמה חדשה',
+        'new_password_confirmation' => 'אשר סיסמה חדשה',
+        'success' => 'הסיסמה שלך עודכנה בהצלחה.',
+    ],
+    'menu' => 'תפריט',
+    'buy_products' => 'קנה מוצרים',
+    'last_login_at' => 'התחברות אחרונה ב',
+];

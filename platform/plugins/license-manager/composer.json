@@ -1,0 +1,13 @@
+{
+    "name": "botble/license-manager",
+    "autoload": {
+        "psr-4": {
+            "Botble\\LicenseManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Botble\\LicenseManager\\Tests\\": "tests/"
+        }
+    }
+}

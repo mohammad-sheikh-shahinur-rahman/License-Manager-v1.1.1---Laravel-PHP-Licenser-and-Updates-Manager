@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'vagy folytassa ezzel',
+        'sign_in_with_envato' => 'Bejelentkezés Envato-val',
+        'login' => 'Bejelentkezés',
+        'forgot_password' => 'Elfelejtett jelszó',
+        'forgot_your_password' => 'Elfelejtette a jelszavát?',
+        'reset_password' => 'Jelszó visszaállítása',
+        'email' => 'Email',
+        'password' => 'Jelszó',
+        'remember_me' => 'Emlékezz rám',
+        'submit' => 'Küldés',
+        'back_to_login_page' => 'Vissza a bejelentkezési oldalra',
+        'new_password' => 'Új jelszó',
+        'confirm_new_password' => 'Új jelszó megerősítése',
+        'update' => 'Frissítés',
+    ],
+    'dashboard' => 'Vezérlőpult',
+    'settings' => 'Beállítások',
+    'basic_setting' => 'Alapbeállítások',
+    'basic_form' => [
+        'name' => 'Név',
+        'client_id' => 'Ügyfél ID',
+        'client_id_description' => 'Ez az Ön ügyfél-azonosítója, amely szinkronizálva van az Envato Market-tel.',
+        'email' => 'Email',
+        'success' => 'Az információi sikeresen frissítve lettek.',
+    ],
+    'avatar_setting' => 'Avatár beállítások',
+    'avatar_form' => [
+        'avatar' => 'Avatár',
+        'success' => 'Az avatárja sikeresen frissítve lett.',
+    ],
+    'password_setting' => 'Jelszó beállítások',
+    'password_form' => [
+        'old_password' => 'Régi jelszó',
+        'new_password' => 'Új jelszó',
+        'new_password_confirmation' => 'Új jelszó megerősítése',
+        'success' => 'A jelszava sikeresen frissítve lett.',
+    ],
+    'menu' => 'Menü',
+    'buy_products' => 'Termékek vásárlása',
+    'last_login_at' => 'Utolsó bejelentkezés',
+];

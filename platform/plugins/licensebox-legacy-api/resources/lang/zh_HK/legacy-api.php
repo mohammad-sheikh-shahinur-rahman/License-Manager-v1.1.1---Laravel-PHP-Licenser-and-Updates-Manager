@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => '方法不正確或缺少值，請檢查。',
+        'product_id_incorrect' => '指定的產品ID不正確，請重新檢查。',
+        'product_id_invalid' => '提供的產品ID無效，請檢查。',
+        'product_id_exists' => '提供的產品ID已存在，請重新檢查。',
+        'product_not_added' => '發生錯誤，產品未新增。',
+        'product_not_found' => '未找到產品。',
+        'product_already_status' => '產品 :name 已經是 :status。',
+        'license_code_invalid' => '提供的授權碼無效，請檢查。',
+        'license_code_exists' => '提供的授權碼已存在，請重新檢查。',
+        'license_not_exist' => '提供的授權不存在，請重新檢查。',
+        'license_code_incorrect' => '指定的授權碼不正確，請重新檢查。',
+        'license_not_added' => '發生錯誤，授權未新增。',
+        'license_not_edited' => '發生錯誤，授權未編輯。',
+        'license_not_deleted' => '授權 :code 未刪除，請重新檢查。',
+        'license_already_status' => '授權 :code 已經是 :status。',
+        'client_email_invalid' => '提供的客戶電子郵件地址不正確，請檢查。',
+        'no_search_keyword' => '未提供搜尋關鍵字。請檢查並重試。',
+        'no_license_found' => '未找到相應的授權。',
+        'version_created' => '版本建立/更新成功。',
+    ],
+    'success' => [
+        'product_added' => '新產品 :name（ID :id）已成功新增。',
+        'product_status_changed' => '產品 :name 標記為 :status。',
+        'license_added' => '新 :product 授權 :code 已成功新增。',
+        'license_edited' => '授權 :code 已成功編輯。',
+        'license_deleted' => '授權 :code 已成功刪除。',
+        'license_status_changed' => '授權 :code 已成功 :status。',
+        'activations_deactivated' => '授權 :code 已成功停用。',
+    ],
+    'activity_log' => [
+        'product_added' => '已新增新產品 <b>:name</b>。',
+        'product_status_changed' => '產品 <b>:name</b> 狀態已更改為 :status。',
+        'license_added' => '已新增新 :product 授權 <b>:code</b>。',
+        'license_edited' => '授權 <b>:code</b> 已編輯。',
+        'license_deleted' => '授權 <b>:code</b> 已刪除。',
+        'license_status_changed' => '授權 <b>:code</b> :status。',
+        'activations_deactivated' => '授權 <b>:code</b> 的啟用已停用。',
+    ],
+];

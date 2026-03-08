@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'o magpatuloy sa',
+        'sign_in_with_envato' => 'Mag-sign in gamit ang Envato',
+        'login' => 'Mag-login',
+        'forgot_password' => 'Nakalimutan ang Password',
+        'forgot_your_password' => 'Nakalimutan ang iyong password?',
+        'reset_password' => 'I-reset ang Password',
+        'email' => 'Email',
+        'password' => 'Password',
+        'remember_me' => 'Tandaan ako',
+        'submit' => 'Isumite',
+        'back_to_login_page' => 'Bumalik sa login page',
+        'new_password' => 'Bagong Password',
+        'confirm_new_password' => 'Kumpirmahin ang Bagong Password',
+        'update' => 'I-update',
+    ],
+    'dashboard' => 'Dashboard',
+    'settings' => 'Mga Setting',
+    'basic_setting' => 'Pangunahing Setting',
+    'basic_form' => [
+        'name' => 'Pangalan',
+        'client_id' => 'Client ID',
+        'client_id_description' => 'Ito ang iyong client ID na naka-sync mula sa Envato Market.',
+        'email' => 'Email',
+        'success' => 'Matagumpay na na-update ang iyong impormasyon.',
+    ],
+    'avatar_setting' => 'Setting ng Avatar',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Matagumpay na na-update ang iyong avatar.',
+    ],
+    'password_setting' => 'Setting ng Password',
+    'password_form' => [
+        'old_password' => 'Lumang Password',
+        'new_password' => 'Bagong Password',
+        'new_password_confirmation' => 'Kumpirmahin ang Bagong Password',
+        'success' => 'Matagumpay na na-update ang iyong password.',
+    ],
+    'menu' => 'Menu',
+    'buy_products' => 'Bumili ng Produkto',
+    'last_login_at' => 'Huling Login Sa',
+];

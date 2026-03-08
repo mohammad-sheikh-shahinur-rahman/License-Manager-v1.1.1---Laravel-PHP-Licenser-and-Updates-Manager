@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Incorrect method or missing values, please check.',
+        'product_id_incorrect' => 'Product ID specified is incorrect, please recheck.',
+        'product_id_invalid' => 'Provided product ID is invalid, please check.',
+        'product_id_exists' => 'Provided product ID already exists, please recheck.',
+        'product_not_added' => 'An error occurred, product was not added.',
+        'product_not_found' => 'Product not found.',
+        'product_already_status' => 'Product :name is already :status.',
+        'license_code_invalid' => 'Provided license code is invalid, please check.',
+        'license_code_exists' => 'Provided license code already exists, please recheck.',
+        'license_not_exist' => 'Provided license does not exist, please recheck.',
+        'license_code_incorrect' => 'License code specified is incorrect, please recheck.',
+        'license_not_added' => 'An error occurred, license was not added.',
+        'license_not_edited' => 'An error occurred, license was not edited.',
+        'license_not_deleted' => 'License :code was not deleted, please recheck.',
+        'license_already_status' => 'License :code is already :status.',
+        'client_email_invalid' => 'Provided client email address is incorrect, please check.',
+        'no_search_keyword' => 'No keywords were provided for the search. Please check and try again.',
+        'no_license_found' => 'No corresponding license was found.',
+        'version_created' => 'Version created/updated successfully.',
+    ],
+    'success' => [
+        'product_added' => 'New product :name having ID :id was successfully added.',
+        'product_status_changed' => 'Product :name marked as :status.',
+        'license_added' => 'New :product license :code was successfully added.',
+        'license_edited' => 'License :code was successfully edited.',
+        'license_deleted' => 'License :code was successfully deleted.',
+        'license_status_changed' => 'License :code was successfully :status.',
+        'activations_deactivated' => 'License :code was successfully deactivated.',
+    ],
+    'activity_log' => [
+        'product_added' => 'New product <b>:name</b> added.',
+        'product_status_changed' => 'Product <b>:name</b> status changed to :status.',
+        'license_added' => 'New :product license <b>:code</b> added.',
+        'license_edited' => 'License <b>:code</b> edited.',
+        'license_deleted' => 'License <b>:code</b> deleted.',
+        'license_status_changed' => 'License <b>:code</b> :status.',
+        'activations_deactivated' => 'Activations of License <b>:code</b> deactivated.',
+    ],
+];

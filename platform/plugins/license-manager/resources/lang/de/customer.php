@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'oder fortfahren mit',
+        'sign_in_with_envato' => 'Mit Envato anmelden',
+        'login' => 'Anmelden',
+        'forgot_password' => 'Passwort vergessen',
+        'forgot_your_password' => 'Passwort vergessen?',
+        'reset_password' => 'Passwort zurücksetzen',
+        'email' => 'E-Mail',
+        'password' => 'Passwort',
+        'remember_me' => 'Angemeldet bleiben',
+        'submit' => 'Absenden',
+        'back_to_login_page' => 'Zurück zur Anmeldeseite',
+        'new_password' => 'Neues Passwort',
+        'confirm_new_password' => 'Neues Passwort bestätigen',
+        'update' => 'Aktualisieren',
+    ],
+    'dashboard' => 'Dashboard',
+    'settings' => 'Einstellungen',
+    'basic_setting' => 'Grundeinstellungen',
+    'basic_form' => [
+        'name' => 'Name',
+        'client_id' => 'Client-ID',
+        'client_id_description' => 'Dies ist Ihre Client-ID, die vom Envato Market synchronisiert wurde.',
+        'email' => 'E-Mail',
+        'success' => 'Ihre Informationen wurden erfolgreich aktualisiert.',
+    ],
+    'avatar_setting' => 'Avatar-Einstellungen',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Ihr Avatar wurde erfolgreich aktualisiert.',
+    ],
+    'password_setting' => 'Passwort-Einstellungen',
+    'password_form' => [
+        'old_password' => 'Altes Passwort',
+        'new_password' => 'Neues Passwort',
+        'new_password_confirmation' => 'Neues Passwort bestätigen',
+        'success' => 'Ihr Passwort wurde erfolgreich aktualisiert.',
+    ],
+    'menu' => 'Menü',
+    'buy_products' => 'Produkte kaufen',
+    'last_login_at' => 'Letzte Anmeldung am',
+];

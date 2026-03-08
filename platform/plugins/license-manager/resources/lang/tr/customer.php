@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'veya devam et',
+        'sign_in_with_envato' => 'Envato ile giriş yap',
+        'login' => 'Giriş',
+        'forgot_password' => 'Şifremi unuttum',
+        'forgot_your_password' => 'Şifrenizi mi unuttunuz?',
+        'reset_password' => 'Şifreyi sıfırla',
+        'email' => 'E-posta',
+        'password' => 'Şifre',
+        'remember_me' => 'Beni hatırla',
+        'submit' => 'Gönder',
+        'back_to_login_page' => 'Giriş sayfasına dön',
+        'new_password' => 'Yeni şifre',
+        'confirm_new_password' => 'Yeni şifreyi onayla',
+        'update' => 'Güncelle',
+    ],
+    'dashboard' => 'Kontrol paneli',
+    'settings' => 'Ayarlar',
+    'basic_setting' => 'Temel ayarlar',
+    'basic_form' => [
+        'name' => 'Ad',
+        'client_id' => 'Müşteri ID',
+        'client_id_description' => 'Bu, Envato Market\'ten senkronize edilen müşteri kimliğinizdir.',
+        'email' => 'E-posta',
+        'success' => 'Bilgileriniz başarıyla güncellendi.',
+    ],
+    'avatar_setting' => 'Avatar ayarları',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Avatar\'ınız başarıyla güncellendi.',
+    ],
+    'password_setting' => 'Şifre ayarları',
+    'password_form' => [
+        'old_password' => 'Eski şifre',
+        'new_password' => 'Yeni şifre',
+        'new_password_confirmation' => 'Yeni şifreyi onayla',
+        'success' => 'Şifreniz başarıyla güncellendi.',
+    ],
+    'menu' => 'Menü',
+    'buy_products' => 'Ürün satın al',
+    'last_login_at' => 'Son giriş',
+];

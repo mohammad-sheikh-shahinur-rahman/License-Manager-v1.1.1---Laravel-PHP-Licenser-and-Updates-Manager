@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'วิธีการไม่ถูกต้องหรือค่าที่หายไป โปรดตรวจสอบ',
+        'product_id_incorrect' => 'ID ผลิตภัณฑ์ที่ระบุไม่ถูกต้อง โปรดตรวจสอบอีกครั้ง',
+        'product_id_invalid' => 'ID ผลิตภัณฑ์ที่ให้มาไม่ถูกต้อง โปรดตรวจสอบ',
+        'product_id_exists' => 'ID ผลิตภัณฑ์ที่ให้มามีอยู่แล้ว โปรดตรวจสอบอีกครั้ง',
+        'product_not_added' => 'เกิดข้อผิดพลาด ไม่สามารถเพิ่มผลิตภัณฑ์ได้',
+        'product_not_found' => 'ไม่พบผลิตภัณฑ์',
+        'product_already_status' => 'ผลิตภัณฑ์ :name เป็น :status อยู่แล้ว',
+        'license_code_invalid' => 'รหัสใบอนุญาตที่ให้มาไม่ถูกต้อง โปรดตรวจสอบ',
+        'license_code_exists' => 'รหัสใบอนุญาตที่ให้มามีอยู่แล้ว โปรดตรวจสอบอีกครั้ง',
+        'license_not_exist' => 'ใบอนุญาตที่ให้มาไม่มีอยู่ โปรดตรวจสอบอีกครั้ง',
+        'license_code_incorrect' => 'รหัสใบอนุญาตที่ระบุไม่ถูกต้อง โปรดตรวจสอบอีกครั้ง',
+        'license_not_added' => 'เกิดข้อผิดพลาด ไม่สามารถเพิ่มใบอนุญาตได้',
+        'license_not_edited' => 'เกิดข้อผิดพลาด ไม่สามารถแก้ไขใบอนุญาตได้',
+        'license_not_deleted' => 'ใบอนุญาต :code ไม่ได้ถูกลบ โปรดตรวจสอบอีกครั้ง',
+        'license_already_status' => 'ใบอนุญาต :code เป็น :status อยู่แล้ว',
+        'client_email_invalid' => 'ที่อยู่อีเมลของลูกค้าที่ให้มาไม่ถูกต้อง โปรดตรวจสอบ',
+        'no_search_keyword' => 'ไม่มีคำสำคัญสำหรับการค้นหา โปรดตรวจสอบและลองอีกครั้ง',
+        'no_license_found' => 'ไม่พบใบอนุญาตที่ตรงกัน',
+        'version_created' => 'สร้าง/อัปเดตเวอร์ชันสำเร็จแล้ว',
+    ],
+    'success' => [
+        'product_added' => 'เพิ่มผลิตภัณฑ์ใหม่ :name ที่มี ID :id สำเร็จแล้ว',
+        'product_status_changed' => 'ผลิตภัณฑ์ :name ถูกทำเครื่องหมายเป็น :status',
+        'license_added' => 'เพิ่มใบอนุญาต :product ใหม่ :code สำเร็จแล้ว',
+        'license_edited' => 'แก้ไขใบอนุญาต :code สำเร็จแล้ว',
+        'license_deleted' => 'ลบใบอนุญาต :code สำเร็จแล้ว',
+        'license_status_changed' => 'ใบอนุญาต :code ถูก :status สำเร็จแล้ว',
+        'activations_deactivated' => 'ปิดใช้งานใบอนุญาต :code สำเร็จแล้ว',
+    ],
+    'activity_log' => [
+        'product_added' => 'เพิ่มผลิตภัณฑ์ใหม่ <b>:name</b> แล้ว',
+        'product_status_changed' => 'เปลี่ยนสถานะของผลิตภัณฑ์ <b>:name</b> เป็น :status',
+        'license_added' => 'เพิ่มใบอนุญาต :product ใหม่ <b>:code</b> แล้ว',
+        'license_edited' => 'แก้ไขใบอนุญาต <b>:code</b> แล้ว',
+        'license_deleted' => 'ลบใบอนุญาต <b>:code</b> แล้ว',
+        'license_status_changed' => 'ใบอนุญาต <b>:code</b> :status',
+        'activations_deactivated' => 'ปิดใช้งานการเปิดใช้งานของใบอนุญาต <b>:code</b> แล้ว',
+    ],
+];

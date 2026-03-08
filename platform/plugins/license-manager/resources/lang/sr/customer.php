@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'ili nastavi sa',
+        'sign_in_with_envato' => 'Prijavi se sa Envato',
+        'login' => 'Prijava',
+        'forgot_password' => 'Zaboravljena lozinka',
+        'forgot_your_password' => 'Zaboravili ste lozinku?',
+        'reset_password' => 'Resetuj lozinku',
+        'email' => 'Email',
+        'password' => 'Lozinka',
+        'remember_me' => 'Zapamti me',
+        'submit' => 'Pošalji',
+        'back_to_login_page' => 'Nazad na stranicu za prijavu',
+        'new_password' => 'Nova lozinka',
+        'confirm_new_password' => 'Potvrdi novu lozinku',
+        'update' => 'Ažuriraj',
+    ],
+    'dashboard' => 'Kontrolna tabla',
+    'settings' => 'Podešavanja',
+    'basic_setting' => 'Osnovna podešavanja',
+    'basic_form' => [
+        'name' => 'Ime',
+        'client_id' => 'ID klijenta',
+        'client_id_description' => 'Ovo je vaš ID klijenta sinhronizovan sa Envato Market.',
+        'email' => 'Email',
+        'success' => 'Vaše informacije su uspešno ažurirane.',
+    ],
+    'avatar_setting' => 'Podešavanja avatara',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Vaš avatar je uspešno ažuriran.',
+    ],
+    'password_setting' => 'Podešavanja lozinke',
+    'password_form' => [
+        'old_password' => 'Stara lozinka',
+        'new_password' => 'Nova lozinka',
+        'new_password_confirmation' => 'Potvrdi novu lozinku',
+        'success' => 'Vaša lozinka je uspešno ažurirana.',
+    ],
+    'menu' => 'Meni',
+    'buy_products' => 'Kupi proizvode',
+    'last_login_at' => 'Poslednja prijava',
+];

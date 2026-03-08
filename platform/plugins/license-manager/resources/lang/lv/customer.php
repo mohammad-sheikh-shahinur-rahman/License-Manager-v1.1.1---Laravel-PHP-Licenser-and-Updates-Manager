@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'vai turpiniet ar',
+        'sign_in_with_envato' => 'Pierakstīties ar Envato',
+        'login' => 'Pieteikties',
+        'forgot_password' => 'Aizmirsu paroli',
+        'forgot_your_password' => 'Aizmirsi savu paroli?',
+        'reset_password' => 'Atiestatīt paroli',
+        'email' => 'E-pasts',
+        'password' => 'Parole',
+        'remember_me' => 'Atcerēties mani',
+        'submit' => 'Iesniegt',
+        'back_to_login_page' => 'Atpakaļ uz pieteikšanās lapu',
+        'new_password' => 'Jauna parole',
+        'confirm_new_password' => 'Apstipriniet jaunu paroli',
+        'update' => 'Atjaunināt',
+    ],
+    'dashboard' => 'Informācijas panelis',
+    'settings' => 'Iestatījumi',
+    'basic_setting' => 'Pamata iestatījums',
+    'basic_form' => [
+        'name' => 'Vārds',
+        'client_id' => 'Klienta ID',
+        'client_id_description' => 'Šis ir jūsu klienta ID, kas sinhronizēts no Envato Market.',
+        'email' => 'E-pasts',
+        'success' => 'Jūsu informācija ir veiksmīgi atjaunināta.',
+    ],
+    'avatar_setting' => 'Avatara iestatījums',
+    'avatar_form' => [
+        'avatar' => 'Avatars',
+        'success' => 'Jūsu avatars ir veiksmīgi atjaunināts.',
+    ],
+    'password_setting' => 'Paroles iestatījums',
+    'password_form' => [
+        'old_password' => 'Vecā parole',
+        'new_password' => 'Jaunā parole',
+        'new_password_confirmation' => 'Apstipriniet jaunu paroli',
+        'success' => 'Jūsu parole ir veiksmīgi atjaunināta.',
+    ],
+    'menu' => 'Izvēlne',
+    'buy_products' => 'Pirkt produktus',
+    'last_login_at' => 'Pēdējo reizi pieteicies',
+];

@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Nesprávna metóda alebo chýbajúce hodnoty, skontrolujte prosím.',
+        'product_id_incorrect' => 'Zadané ID produktu je nesprávne, skontrolujte prosím znova.',
+        'product_id_invalid' => 'Poskytnuté ID produktu je neplatné, skontrolujte prosím.',
+        'product_id_exists' => 'Poskytnuté ID produktu už existuje, skontrolujte prosím znova.',
+        'product_not_added' => 'Došlo k chybe, produkt nebol pridaný.',
+        'product_not_found' => 'Produkt nebol nájdený.',
+        'product_already_status' => 'Produkt :name už je :status.',
+        'license_code_invalid' => 'Poskytnutý licenčný kód je neplatný, skontrolujte prosím.',
+        'license_code_exists' => 'Poskytnutý licenčný kód už existuje, skontrolujte prosím znova.',
+        'license_not_exist' => 'Poskytnutá licencia neexistuje, skontrolujte prosím znova.',
+        'license_code_incorrect' => 'Zadaný licenčný kód je nesprávny, skontrolujte prosím znova.',
+        'license_not_added' => 'Došlo k chybe, licencia nebola pridaná.',
+        'license_not_edited' => 'Došlo k chybe, licencia nebola upravená.',
+        'license_not_deleted' => 'Licencia :code nebola odstránená, skontrolujte prosím znova.',
+        'license_already_status' => 'Licencia :code už je :status.',
+        'client_email_invalid' => 'Poskytnutá e-mailová adresa klienta je nesprávna, skontrolujte prosím.',
+        'no_search_keyword' => 'Neboli poskytnuté žiadne kľúčové slová pre vyhľadávanie. Skontrolujte prosím a skúste znova.',
+        'no_license_found' => 'Nebola nájdená žiadna zodpovedajúca licencia.',
+        'version_created' => 'Verzia úspešne vytvorená/aktualizovaná.',
+    ],
+    'success' => [
+        'product_added' => 'Nový produkt :name s ID :id bol úspešne pridaný.',
+        'product_status_changed' => 'Produkt :name označený ako :status.',
+        'license_added' => 'Nová :product licencia :code bola úspešne pridaná.',
+        'license_edited' => 'Licencia :code bola úspešne upravená.',
+        'license_deleted' => 'Licencia :code bola úspešne odstránená.',
+        'license_status_changed' => 'Licencia :code bola úspešne :status.',
+        'activations_deactivated' => 'Licencia :code bola úspešne deaktivovaná.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Pridaný nový produkt <b>:name</b>.',
+        'product_status_changed' => 'Stav produktu <b>:name</b> zmenený na :status.',
+        'license_added' => 'Pridaná nová :product licencia <b>:code</b>.',
+        'license_edited' => 'Licencia <b>:code</b> upravená.',
+        'license_deleted' => 'Licencia <b>:code</b> odstránená.',
+        'license_status_changed' => 'Licencia <b>:code</b> :status.',
+        'activations_deactivated' => 'Aktivácie licencie <b>:code</b> deaktivované.',
+    ],
+];

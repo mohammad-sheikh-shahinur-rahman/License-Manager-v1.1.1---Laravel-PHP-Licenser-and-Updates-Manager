@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'طريقة غير صحيحة أو قيم مفقودة، يرجى التحقق.',
+        'product_id_incorrect' => 'معرف المنتج المحدد غير صحيح، يرجى إعادة التحقق.',
+        'product_id_invalid' => 'معرف المنتج المقدم غير صالح، يرجى التحقق.',
+        'product_id_exists' => 'معرف المنتج المقدم موجود بالفعل، يرجى إعادة التحقق.',
+        'product_not_added' => 'حدث خطأ، لم تتم إضافة المنتج.',
+        'product_not_found' => 'المنتج غير موجود.',
+        'product_already_status' => 'المنتج :name بالفعل :status.',
+        'license_code_invalid' => 'رمز الترخيص المقدم غير صالح، يرجى التحقق.',
+        'license_code_exists' => 'رمز الترخيص المقدم موجود بالفعل، يرجى إعادة التحقق.',
+        'license_not_exist' => 'الترخيص المقدم غير موجود، يرجى إعادة التحقق.',
+        'license_code_incorrect' => 'رمز الترخيص المحدد غير صحيح، يرجى إعادة التحقق.',
+        'license_not_added' => 'حدث خطأ، لم تتم إضافة الترخيص.',
+        'license_not_edited' => 'حدث خطأ، لم يتم تعديل الترخيص.',
+        'license_not_deleted' => 'لم يتم حذف الترخيص :code، يرجى إعادة التحقق.',
+        'license_already_status' => 'الترخيص :code بالفعل :status.',
+        'client_email_invalid' => 'عنوان البريد الإلكتروني للعميل المقدم غير صحيح، يرجى التحقق.',
+        'no_search_keyword' => 'لم يتم توفير كلمات مفتاحية للبحث. يرجى التحقق والمحاولة مرة أخرى.',
+        'no_license_found' => 'لم يتم العثور على ترخيص مطابق.',
+        'version_created' => 'تم إنشاء/تحديث الإصدار بنجاح.',
+    ],
+    'success' => [
+        'product_added' => 'تمت إضافة المنتج الجديد :name بمعرف :id بنجاح.',
+        'product_status_changed' => 'تم وضع علامة على المنتج :name كـ :status.',
+        'license_added' => 'تمت إضافة ترخيص :product الجديد :code بنجاح.',
+        'license_edited' => 'تم تعديل الترخيص :code بنجاح.',
+        'license_deleted' => 'تم حذف الترخيص :code بنجاح.',
+        'license_status_changed' => 'تم :status الترخيص :code بنجاح.',
+        'activations_deactivated' => 'تم إلغاء تنشيط الترخيص :code بنجاح.',
+    ],
+    'activity_log' => [
+        'product_added' => 'تمت إضافة المنتج الجديد <b>:name</b>.',
+        'product_status_changed' => 'تم تغيير حالة المنتج <b>:name</b> إلى :status.',
+        'license_added' => 'تمت إضافة ترخيص :product الجديد <b>:code</b>.',
+        'license_edited' => 'تم تعديل الترخيص <b>:code</b>.',
+        'license_deleted' => 'تم حذف الترخيص <b>:code</b>.',
+        'license_status_changed' => 'تم :status الترخيص <b>:code</b>.',
+        'activations_deactivated' => 'تم إلغاء تنشيط الترخيص <b>:code</b>.',
+    ],
+];

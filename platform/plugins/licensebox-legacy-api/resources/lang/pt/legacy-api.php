@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Método incorreto ou valores em falta, por favor verifique.',
+        'product_id_incorrect' => 'O ID do produto especificado está incorreto, por favor verifique novamente.',
+        'product_id_invalid' => 'O ID do produto fornecido é inválido, por favor verifique.',
+        'product_id_exists' => 'O ID do produto fornecido já existe, por favor verifique novamente.',
+        'product_not_added' => 'Ocorreu um erro, o produto não foi adicionado.',
+        'product_not_found' => 'Produto não encontrado.',
+        'product_already_status' => 'O produto :name já está :status.',
+        'license_code_invalid' => 'O código de licença fornecido é inválido, por favor verifique.',
+        'license_code_exists' => 'O código de licença fornecido já existe, por favor verifique novamente.',
+        'license_not_exist' => 'A licença fornecida não existe, por favor verifique novamente.',
+        'license_code_incorrect' => 'O código de licença especificado está incorreto, por favor verifique novamente.',
+        'license_not_added' => 'Ocorreu um erro, a licença não foi adicionada.',
+        'license_not_edited' => 'Ocorreu um erro, a licença não foi editada.',
+        'license_not_deleted' => 'A licença :code não foi eliminada, por favor verifique novamente.',
+        'license_already_status' => 'A licença :code já está :status.',
+        'client_email_invalid' => 'O endereço de e-mail do cliente fornecido está incorreto, por favor verifique.',
+        'no_search_keyword' => 'Não foram fornecidas palavras-chave para a pesquisa. Por favor verifique e tente novamente.',
+        'no_license_found' => 'Nenhuma licença correspondente foi encontrada.',
+        'version_created' => 'Versão criada/atualizada com sucesso.',
+    ],
+    'success' => [
+        'product_added' => 'Novo produto :name com ID :id foi adicionado com sucesso.',
+        'product_status_changed' => 'Produto :name marcado como :status.',
+        'license_added' => 'Nova licença :product :code foi adicionada com sucesso.',
+        'license_edited' => 'A licença :code foi editada com sucesso.',
+        'license_deleted' => 'A licença :code foi eliminada com sucesso.',
+        'license_status_changed' => 'A licença :code foi :status com sucesso.',
+        'activations_deactivated' => 'A licença :code foi desativada com sucesso.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Novo produto <b>:name</b> adicionado.',
+        'product_status_changed' => 'Estado do produto <b>:name</b> alterado para :status.',
+        'license_added' => 'Nova licença :product <b>:code</b> adicionada.',
+        'license_edited' => 'Licença <b>:code</b> editada.',
+        'license_deleted' => 'Licença <b>:code</b> eliminada.',
+        'license_status_changed' => 'Licença <b>:code</b> :status.',
+        'activations_deactivated' => 'Ativações da licença <b>:code</b> desativadas.',
+    ],
+];

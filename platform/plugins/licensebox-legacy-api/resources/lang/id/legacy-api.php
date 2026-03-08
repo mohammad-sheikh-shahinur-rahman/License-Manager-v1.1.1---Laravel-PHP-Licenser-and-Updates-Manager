@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Metode salah atau nilai hilang, silakan periksa.',
+        'product_id_incorrect' => 'ID produk yang ditentukan salah, silakan periksa kembali.',
+        'product_id_invalid' => 'ID produk yang diberikan tidak valid, silakan periksa.',
+        'product_id_exists' => 'ID produk yang diberikan sudah ada, silakan periksa kembali.',
+        'product_not_added' => 'Terjadi kesalahan, produk tidak ditambahkan.',
+        'product_not_found' => 'Produk tidak ditemukan.',
+        'product_already_status' => 'Produk :name sudah :status.',
+        'license_code_invalid' => 'Kode lisensi yang diberikan tidak valid, silakan periksa.',
+        'license_code_exists' => 'Kode lisensi yang diberikan sudah ada, silakan periksa kembali.',
+        'license_not_exist' => 'Lisensi yang diberikan tidak ada, silakan periksa kembali.',
+        'license_code_incorrect' => 'Kode lisensi yang ditentukan salah, silakan periksa kembali.',
+        'license_not_added' => 'Terjadi kesalahan, lisensi tidak ditambahkan.',
+        'license_not_edited' => 'Terjadi kesalahan, lisensi tidak diedit.',
+        'license_not_deleted' => 'Lisensi :code tidak dihapus, silakan periksa kembali.',
+        'license_already_status' => 'Lisensi :code sudah :status.',
+        'client_email_invalid' => 'Alamat email klien yang diberikan salah, silakan periksa.',
+        'no_search_keyword' => 'Tidak ada kata kunci yang diberikan untuk pencarian. Silakan periksa dan coba lagi.',
+        'no_license_found' => 'Tidak ditemukan lisensi yang sesuai.',
+        'version_created' => 'Versi berhasil dibuat/diperbarui.',
+    ],
+    'success' => [
+        'product_added' => 'Produk baru :name dengan ID :id berhasil ditambahkan.',
+        'product_status_changed' => 'Produk :name ditandai sebagai :status.',
+        'license_added' => 'Lisensi :product baru :code berhasil ditambahkan.',
+        'license_edited' => 'Lisensi :code berhasil diedit.',
+        'license_deleted' => 'Lisensi :code berhasil dihapus.',
+        'license_status_changed' => 'Lisensi :code berhasil :status.',
+        'activations_deactivated' => 'Lisensi :code berhasil dinonaktifkan.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Produk baru <b>:name</b> ditambahkan.',
+        'product_status_changed' => 'Status produk <b>:name</b> diubah menjadi :status.',
+        'license_added' => 'Lisensi :product baru <b>:code</b> ditambahkan.',
+        'license_edited' => 'Lisensi <b>:code</b> diedit.',
+        'license_deleted' => 'Lisensi <b>:code</b> dihapus.',
+        'license_status_changed' => 'Lisensi <b>:code</b> :status.',
+        'activations_deactivated' => 'Aktivasi lisensi <b>:code</b> dinonaktifkan.',
+    ],
+];

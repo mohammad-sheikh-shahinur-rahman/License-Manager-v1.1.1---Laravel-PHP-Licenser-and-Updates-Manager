@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'שיטה שגויה או ערכים חסרים, אנא בדוק.',
+        'product_id_incorrect' => 'מזהה המוצר שצוין שגוי, אנא בדוק שוב.',
+        'product_id_invalid' => 'מזהה המוצר שסופק אינו תקין, אנא בדוק.',
+        'product_id_exists' => 'מזהה המוצר שסופק כבר קיים, אנא בדוק שוב.',
+        'product_not_added' => 'אירעה שגיאה, המוצר לא נוסף.',
+        'product_not_found' => 'המוצר לא נמצא.',
+        'product_already_status' => 'המוצר :name כבר :status.',
+        'license_code_invalid' => 'קוד הרישיון שסופק אינו תקין, אנא בדוק.',
+        'license_code_exists' => 'קוד הרישיון שסופק כבר קיים, אנא בדוק שוב.',
+        'license_not_exist' => 'הרישיון שסופק אינו קיים, אנא בדוק שוב.',
+        'license_code_incorrect' => 'קוד הרישיון שצוין שגוי, אנא בדוק שוב.',
+        'license_not_added' => 'אירעה שגיאה, הרישיון לא נוסף.',
+        'license_not_edited' => 'אירעה שגיאה, הרישיון לא נערך.',
+        'license_not_deleted' => 'הרישיון :code לא נמחק, אנא בדוק שוב.',
+        'license_already_status' => 'הרישיון :code כבר :status.',
+        'client_email_invalid' => 'כתובת האימייל של הלקוח שסופקה שגויה, אנא בדוק.',
+        'no_search_keyword' => 'לא סופקו מילות חיפוש לחיפוש. אנא בדוק ונסה שוב.',
+        'no_license_found' => 'לא נמצא רישיון מתאים.',
+        'version_created' => 'הגרסה נוצרה/עודכנה בהצלחה.',
+    ],
+    'success' => [
+        'product_added' => 'המוצר החדש :name עם מזהה :id נוסף בהצלחה.',
+        'product_status_changed' => 'המוצר :name סומן כ-:status.',
+        'license_added' => 'הרישיון החדש :product :code נוסף בהצלחה.',
+        'license_edited' => 'הרישיון :code נערך בהצלחה.',
+        'license_deleted' => 'הרישיון :code נמחק בהצלחה.',
+        'license_status_changed' => 'הרישיון :code :status בהצלחה.',
+        'activations_deactivated' => 'הרישיון :code הושבת בהצלחה.',
+    ],
+    'activity_log' => [
+        'product_added' => 'מוצר חדש <b>:name</b> נוסף.',
+        'product_status_changed' => 'סטטוס המוצר <b>:name</b> שונה ל-:status.',
+        'license_added' => 'רישיון :product חדש <b>:code</b> נוסף.',
+        'license_edited' => 'הרישיון <b>:code</b> נערך.',
+        'license_deleted' => 'הרישיון <b>:code</b> נמחק.',
+        'license_status_changed' => 'הרישיון <b>:code</b> :status.',
+        'activations_deactivated' => 'ההפעלות של הרישיון <b>:code</b> הושבתו.',
+    ],
+];

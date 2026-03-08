@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Feil metode eller manglende verdier, vennligst sjekk.',
+        'product_id_incorrect' => 'Den angitte produkt-ID-en er feil, vennligst sjekk på nytt.',
+        'product_id_invalid' => 'Den angitte produkt-ID-en er ugyldig, vennligst sjekk.',
+        'product_id_exists' => 'Den angitte produkt-ID-en eksisterer allerede, vennligst sjekk på nytt.',
+        'product_not_added' => 'En feil oppstod, produktet ble ikke lagt til.',
+        'product_not_found' => 'Produkt ikke funnet.',
+        'product_already_status' => 'Produkt :name er allerede :status.',
+        'license_code_invalid' => 'Den angitte lisenskoden er ugyldig, vennligst sjekk.',
+        'license_code_exists' => 'Den angitte lisenskoden eksisterer allerede, vennligst sjekk på nytt.',
+        'license_not_exist' => 'Den angitte lisensen eksisterer ikke, vennligst sjekk på nytt.',
+        'license_code_incorrect' => 'Den angitte lisenskoden er feil, vennligst sjekk på nytt.',
+        'license_not_added' => 'En feil oppstod, lisensen ble ikke lagt til.',
+        'license_not_edited' => 'En feil oppstod, lisensen ble ikke redigert.',
+        'license_not_deleted' => 'Lisens :code ble ikke slettet, vennligst sjekk på nytt.',
+        'license_already_status' => 'Lisens :code er allerede :status.',
+        'client_email_invalid' => 'Den angitte klient-e-postadressen er feil, vennligst sjekk.',
+        'no_search_keyword' => 'Ingen søkeord ble angitt for søket. Vennligst sjekk og prøv igjen.',
+        'no_license_found' => 'Ingen tilsvarende lisens ble funnet.',
+        'version_created' => 'Versjon opprettet/oppdatert vellykket.',
+    ],
+    'success' => [
+        'product_added' => 'Nytt produkt :name med ID :id ble vellykket lagt til.',
+        'product_status_changed' => 'Produkt :name merket som :status.',
+        'license_added' => 'Ny :product lisens :code ble vellykket lagt til.',
+        'license_edited' => 'Lisens :code ble vellykket redigert.',
+        'license_deleted' => 'Lisens :code ble vellykket slettet.',
+        'license_status_changed' => 'Lisens :code ble vellykket :status.',
+        'activations_deactivated' => 'Lisens :code ble vellykket deaktivert.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Nytt produkt <b>:name</b> lagt til.',
+        'product_status_changed' => 'Produktstatus <b>:name</b> endret til :status.',
+        'license_added' => 'Ny :product lisens <b>:code</b> lagt til.',
+        'license_edited' => 'Lisens <b>:code</b> redigert.',
+        'license_deleted' => 'Lisens <b>:code</b> slettet.',
+        'license_status_changed' => 'Lisens <b>:code</b> :status.',
+        'activations_deactivated' => 'Aktiveringer av lisens <b>:code</b> deaktivert.',
+    ],
+];

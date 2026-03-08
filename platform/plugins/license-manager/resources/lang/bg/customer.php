@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'или продължете с',
+        'sign_in_with_envato' => 'Влезте с Envato',
+        'login' => 'Вход',
+        'forgot_password' => 'Забравена парола',
+        'forgot_your_password' => 'Забравихте ли паролата си?',
+        'reset_password' => 'Нулиране на парола',
+        'email' => 'Имейл',
+        'password' => 'Парола',
+        'remember_me' => 'Запомни ме',
+        'submit' => 'Изпрати',
+        'back_to_login_page' => 'Обратно към страницата за вход',
+        'new_password' => 'Нова парола',
+        'confirm_new_password' => 'Потвърдете новата парола',
+        'update' => 'Актуализиране',
+    ],
+    'dashboard' => 'Табло',
+    'settings' => 'Настройки',
+    'basic_setting' => 'Основни настройки',
+    'basic_form' => [
+        'name' => 'Име',
+        'client_id' => 'ID на клиент',
+        'client_id_description' => 'Това е вашият ID на клиент, синхронизиран от Envato Market.',
+        'email' => 'Имейл',
+        'success' => 'Вашата информация беше успешно актуализирана.',
+    ],
+    'avatar_setting' => 'Настройки на аватар',
+    'avatar_form' => [
+        'avatar' => 'Аватар',
+        'success' => 'Вашият аватар беше успешно актуализиран.',
+    ],
+    'password_setting' => 'Настройки на парола',
+    'password_form' => [
+        'old_password' => 'Стара парола',
+        'new_password' => 'Нова парола',
+        'new_password_confirmation' => 'Потвърдете новата парола',
+        'success' => 'Вашата парола беше успешно актуализирана.',
+    ],
+    'menu' => 'Меню',
+    'buy_products' => 'Купи продукти',
+    'last_login_at' => 'Последно влизане',
+];

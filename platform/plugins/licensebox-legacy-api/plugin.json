@@ -1,0 +1,10 @@
+{
+    "id": "botble/licensebox-legacy-api",
+    "name": "LicenseBox Legacy API",
+    "namespace": "Botble\\LegacyApi\\",
+    "provider": "Botble\\LegacyApi\\Providers\\LegacyApiServiceProvider",
+    "author": "Botble Technologies",
+    "url": "https://botble.com",
+    "version": "1.0.0",
+    "description": "LicenseBox backward-compatible API endpoints for legacy clients"
+}

@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'ή συνεχίστε με',
+        'sign_in_with_envato' => 'Σύνδεση με Envato',
+        'login' => 'Σύνδεση',
+        'forgot_password' => 'Ξεχάσατε τον κωδικό',
+        'forgot_your_password' => 'Ξεχάσατε τον κωδικό σας;',
+        'reset_password' => 'Επαναφορά κωδικού',
+        'email' => 'Email',
+        'password' => 'Κωδικός',
+        'remember_me' => 'Να με θυμάσαι',
+        'submit' => 'Υποβολή',
+        'back_to_login_page' => 'Επιστροφή στη σελίδα σύνδεσης',
+        'new_password' => 'Νέος κωδικός',
+        'confirm_new_password' => 'Επιβεβαίωση νέου κωδικού',
+        'update' => 'Ενημέρωση',
+    ],
+    'dashboard' => 'Πίνακας ελέγχου',
+    'settings' => 'Ρυθμίσεις',
+    'basic_setting' => 'Βασικές ρυθμίσεις',
+    'basic_form' => [
+        'name' => 'Όνομα',
+        'client_id' => 'ID πελάτη',
+        'client_id_description' => 'Αυτό είναι το ID πελάτη σας συγχρονισμένο από το Envato Market.',
+        'email' => 'Email',
+        'success' => 'Οι πληροφορίες σας ενημερώθηκαν επιτυχώς.',
+    ],
+    'avatar_setting' => 'Ρυθμίσεις avatar',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Το avatar σας ενημερώθηκε επιτυχώς.',
+    ],
+    'password_setting' => 'Ρυθμίσεις κωδικού',
+    'password_form' => [
+        'old_password' => 'Παλιός κωδικός',
+        'new_password' => 'Νέος κωδικός',
+        'new_password_confirmation' => 'Επιβεβαίωση νέου κωδικού',
+        'success' => 'Ο κωδικός σας ενημερώθηκε επιτυχώς.',
+    ],
+    'menu' => 'Μενού',
+    'buy_products' => 'Αγορά προϊόντων',
+    'last_login_at' => 'Τελευταία σύνδεση',
+];

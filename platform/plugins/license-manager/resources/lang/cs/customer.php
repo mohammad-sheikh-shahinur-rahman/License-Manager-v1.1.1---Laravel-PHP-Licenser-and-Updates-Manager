@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'nebo pokračujte s',
+        'sign_in_with_envato' => 'Přihlásit se přes Envato',
+        'login' => 'Přihlásit se',
+        'forgot_password' => 'Zapomněli jste heslo',
+        'forgot_your_password' => 'Zapomněli jste heslo?',
+        'reset_password' => 'Obnovit heslo',
+        'email' => 'Email',
+        'password' => 'Heslo',
+        'remember_me' => 'Zapamatovat si mě',
+        'submit' => 'Odeslat',
+        'back_to_login_page' => 'Zpět na přihlašovací stránku',
+        'new_password' => 'Nové heslo',
+        'confirm_new_password' => 'Potvrďte nové heslo',
+        'update' => 'Aktualizovat',
+    ],
+    'dashboard' => 'Přehled',
+    'settings' => 'Nastavení',
+    'basic_setting' => 'Základní nastavení',
+    'basic_form' => [
+        'name' => 'Jméno',
+        'client_id' => 'ID klienta',
+        'client_id_description' => 'Toto je vaše ID klienta synchronizované z Envato Market.',
+        'email' => 'Email',
+        'success' => 'Vaše informace byly úspěšně aktualizovány.',
+    ],
+    'avatar_setting' => 'Nastavení avataru',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Váš avatar byl úspěšně aktualizován.',
+    ],
+    'password_setting' => 'Nastavení hesla',
+    'password_form' => [
+        'old_password' => 'Staré heslo',
+        'new_password' => 'Nové heslo',
+        'new_password_confirmation' => 'Potvrďte nové heslo',
+        'success' => 'Vaše heslo bylo úspěšně aktualizováno.',
+    ],
+    'menu' => 'Menu',
+    'buy_products' => 'Koupit produkty',
+    'last_login_at' => 'Poslední přihlášení',
+];

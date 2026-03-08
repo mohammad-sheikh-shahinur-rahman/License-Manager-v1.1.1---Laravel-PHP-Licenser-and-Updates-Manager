@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Vale meetod või puuduvad väärtused, palun kontrollige.',
+        'product_id_incorrect' => 'Määratud toote ID on vale, palun kontrollige uuesti.',
+        'product_id_invalid' => 'Esitatud toote ID on kehtetu, palun kontrollige.',
+        'product_id_exists' => 'Esitatud toote ID on juba olemas, palun kontrollige uuesti.',
+        'product_not_added' => 'Ilmnes viga, toodet ei lisatud.',
+        'product_not_found' => 'Toodet ei leitud.',
+        'product_already_status' => 'Toode :name on juba :status.',
+        'license_code_invalid' => 'Esitatud litsentsikood on kehtetu, palun kontrollige.',
+        'license_code_exists' => 'Esitatud litsentsikood on juba olemas, palun kontrollige uuesti.',
+        'license_not_exist' => 'Esitatud litsents ei eksisteeri, palun kontrollige uuesti.',
+        'license_code_incorrect' => 'Määratud litsentsikood on vale, palun kontrollige uuesti.',
+        'license_not_added' => 'Ilmnes viga, litsentsi ei lisatud.',
+        'license_not_edited' => 'Ilmnes viga, litsentsi ei muudetud.',
+        'license_not_deleted' => 'Litsentsi :code ei kustutatud, palun kontrollige uuesti.',
+        'license_already_status' => 'Litsents :code on juba :status.',
+        'client_email_invalid' => 'Esitatud kliendi e-posti aadress on vale, palun kontrollige.',
+        'no_search_keyword' => 'Otsinguks ei esitatud märksõnu. Palun kontrollige ja proovige uuesti.',
+        'no_license_found' => 'Vastavat litsentsi ei leitud.',
+        'version_created' => 'Versioon edukalt loodud/uuendatud.',
+    ],
+    'success' => [
+        'product_added' => 'Uus toode :name ID-ga :id lisati edukalt.',
+        'product_status_changed' => 'Toode :name märgitud kui :status.',
+        'license_added' => 'Uus :product litsents :code lisati edukalt.',
+        'license_edited' => 'Litsents :code muudeti edukalt.',
+        'license_deleted' => 'Litsents :code kustutati edukalt.',
+        'license_status_changed' => 'Litsents :code edukalt :status.',
+        'activations_deactivated' => 'Litsents :code deaktiveeriti edukalt.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Uus toode <b>:name</b> lisatud.',
+        'product_status_changed' => 'Toote <b>:name</b> olek muudetud :status.',
+        'license_added' => 'Uus :product litsents <b>:code</b> lisatud.',
+        'license_edited' => 'Litsents <b>:code</b> muudetud.',
+        'license_deleted' => 'Litsents <b>:code</b> kustutatud.',
+        'license_status_changed' => 'Litsents <b>:code</b> :status.',
+        'activations_deactivated' => 'Litsentsi <b>:code</b> aktiveerimised deaktiveeritud.',
+    ],
+];

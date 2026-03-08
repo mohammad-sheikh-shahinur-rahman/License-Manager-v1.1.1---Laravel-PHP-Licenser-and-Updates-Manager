@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'أو تابع مع',
+        'sign_in_with_envato' => 'تسجيل الدخول باستخدام Envato',
+        'login' => 'تسجيل الدخول',
+        'forgot_password' => 'نسيت كلمة المرور',
+        'forgot_your_password' => 'هل نسيت كلمة المرور؟',
+        'reset_password' => 'إعادة تعيين كلمة المرور',
+        'email' => 'البريد الإلكتروني',
+        'password' => 'كلمة المرور',
+        'remember_me' => 'تذكرني',
+        'submit' => 'إرسال',
+        'back_to_login_page' => 'العودة إلى صفحة تسجيل الدخول',
+        'new_password' => 'كلمة المرور الجديدة',
+        'confirm_new_password' => 'تأكيد كلمة المرور الجديدة',
+        'update' => 'تحديث',
+    ],
+    'dashboard' => 'لوحة التحكم',
+    'settings' => 'الإعدادات',
+    'basic_setting' => 'الإعدادات الأساسية',
+    'basic_form' => [
+        'name' => 'الاسم',
+        'client_id' => 'معرف العميل',
+        'client_id_description' => 'هذا هو معرف العميل الخاص بك المتزامن من Envato Market.',
+        'email' => 'البريد الإلكتروني',
+        'success' => 'تم تحديث معلوماتك بنجاح.',
+    ],
+    'avatar_setting' => 'إعدادات الصورة الرمزية',
+    'avatar_form' => [
+        'avatar' => 'الصورة الرمزية',
+        'success' => 'تم تحديث صورتك الرمزية بنجاح.',
+    ],
+    'password_setting' => 'إعدادات كلمة المرور',
+    'password_form' => [
+        'old_password' => 'كلمة المرور القديمة',
+        'new_password' => 'كلمة المرور الجديدة',
+        'new_password_confirmation' => 'تأكيد كلمة المرور الجديدة',
+        'success' => 'تم تحديث كلمة المرور بنجاح.',
+    ],
+    'menu' => 'القائمة',
+    'buy_products' => 'شراء المنتجات',
+    'last_login_at' => 'آخر تسجيل دخول في',
+];

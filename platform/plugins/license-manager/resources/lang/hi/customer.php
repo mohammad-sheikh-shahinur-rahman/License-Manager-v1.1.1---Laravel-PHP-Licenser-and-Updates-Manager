@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'या जारी रखें',
+        'sign_in_with_envato' => 'Envato के साथ साइन इन करें',
+        'login' => 'लॉगिन',
+        'forgot_password' => 'पासवर्ड भूल गए',
+        'forgot_your_password' => 'अपना पासवर्ड भूल गए?',
+        'reset_password' => 'पासवर्ड रीसेट करें',
+        'email' => 'ईमेल',
+        'password' => 'पासवर्ड',
+        'remember_me' => 'मुझे याद रखें',
+        'submit' => 'जमा करें',
+        'back_to_login_page' => 'लॉगिन पेज पर वापस जाएं',
+        'new_password' => 'नया पासवर्ड',
+        'confirm_new_password' => 'नए पासवर्ड की पुष्टि करें',
+        'update' => 'अपडेट करें',
+    ],
+    'dashboard' => 'डैशबोर्ड',
+    'settings' => 'सेटिंग्स',
+    'basic_setting' => 'बुनियादी सेटिंग',
+    'basic_form' => [
+        'name' => 'नाम',
+        'client_id' => 'क्लाइंट आईडी',
+        'client_id_description' => 'यह Envato Market से सिंक की गई आपकी क्लाइंट आईडी है।',
+        'email' => 'ईमेल',
+        'success' => 'आपकी जानकारी सफलतापूर्वक अपडेट की गई है।',
+    ],
+    'avatar_setting' => 'अवतार सेटिंग',
+    'avatar_form' => [
+        'avatar' => 'अवतार',
+        'success' => 'आपका अवतार सफलतापूर्वक अपडेट किया गया है।',
+    ],
+    'password_setting' => 'पासवर्ड सेटिंग',
+    'password_form' => [
+        'old_password' => 'पुराना पासवर्ड',
+        'new_password' => 'नया पासवर्ड',
+        'new_password_confirmation' => 'नए पासवर्ड की पुष्टि करें',
+        'success' => 'आपका पासवर्ड सफलतापूर्वक अपडेट किया गया है।',
+    ],
+    'menu' => 'मेनू',
+    'buy_products' => 'उत्पाद खरीदें',
+    'last_login_at' => 'अंतिम लॉगिन',
+];

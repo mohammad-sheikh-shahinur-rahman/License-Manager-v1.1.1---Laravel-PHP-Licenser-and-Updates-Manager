@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Helytelen módszer vagy hiányzó értékek, kérjük ellenőrizze.',
+        'product_id_incorrect' => 'A megadott termék azonosító helytelen, kérjük ellenőrizze újra.',
+        'product_id_invalid' => 'A megadott termék azonosító érvénytelen, kérjük ellenőrizze.',
+        'product_id_exists' => 'A megadott termék azonosító már létezik, kérjük ellenőrizze újra.',
+        'product_not_added' => 'Hiba történt, a terméket nem sikerült hozzáadni.',
+        'product_not_found' => 'A termék nem található.',
+        'product_already_status' => 'A :name termék már :status.',
+        'license_code_invalid' => 'A megadott licenckód érvénytelen, kérjük ellenőrizze.',
+        'license_code_exists' => 'A megadott licenckód már létezik, kérjük ellenőrizze újra.',
+        'license_not_exist' => 'A megadott licenc nem létezik, kérjük ellenőrizze újra.',
+        'license_code_incorrect' => 'A megadott licenckód helytelen, kérjük ellenőrizze újra.',
+        'license_not_added' => 'Hiba történt, a licencet nem sikerült hozzáadni.',
+        'license_not_edited' => 'Hiba történt, a licencet nem sikerült szerkeszteni.',
+        'license_not_deleted' => 'A :code licencet nem sikerült törölni, kérjük ellenőrizze újra.',
+        'license_already_status' => 'A :code licenc már :status.',
+        'client_email_invalid' => 'A megadott ügyfél email cím helytelen, kérjük ellenőrizze.',
+        'no_search_keyword' => 'Nem lett megadva kulcsszó a kereséshez. Kérjük ellenőrizze és próbálja újra.',
+        'no_license_found' => 'Nem található megfelelő licenc.',
+        'version_created' => 'Verzió sikeresen létrehozva/frissítve.',
+    ],
+    'success' => [
+        'product_added' => 'Az új :name termék :id azonosítóval sikeresen hozzáadva.',
+        'product_status_changed' => 'A :name termék :status jelöléssel megjelölve.',
+        'license_added' => 'Az új :product licenc :code sikeresen hozzáadva.',
+        'license_edited' => 'A :code licenc sikeresen szerkesztve.',
+        'license_deleted' => 'A :code licenc sikeresen törölve.',
+        'license_status_changed' => 'A :code licenc sikeresen :status.',
+        'activations_deactivated' => 'A :code licenc sikeresen deaktiválva.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Új termék <b>:name</b> hozzáadva.',
+        'product_status_changed' => 'A <b>:name</b> termék állapota módosítva :status.',
+        'license_added' => 'Új :product licenc <b>:code</b> hozzáadva.',
+        'license_edited' => 'A <b>:code</b> licenc szerkesztve.',
+        'license_deleted' => 'A <b>:code</b> licenc törölve.',
+        'license_status_changed' => 'A <b>:code</b> licenc :status.',
+        'activations_deactivated' => 'A <b>:code</b> licenc aktiválásai deaktiválva.',
+    ],
+];

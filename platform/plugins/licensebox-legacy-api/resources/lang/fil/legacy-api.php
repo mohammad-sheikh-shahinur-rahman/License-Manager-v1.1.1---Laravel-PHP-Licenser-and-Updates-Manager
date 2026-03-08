@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Maling paraan o kulang na halaga, pakisuri.',
+        'product_id_incorrect' => 'Ang tinukoy na ID ng produkto ay mali, pakisuri muli.',
+        'product_id_invalid' => 'Ang ibinigay na ID ng produkto ay hindi wasto, pakisuri.',
+        'product_id_exists' => 'Ang ibinigay na ID ng produkto ay umiiral na, pakisuri muli.',
+        'product_not_added' => 'May naganap na error, hindi naidagdag ang produkto.',
+        'product_not_found' => 'Hindi nahanap ang produkto.',
+        'product_already_status' => 'Ang produkto :name ay :status na.',
+        'license_code_invalid' => 'Ang ibinigay na license code ay hindi wasto, pakisuri.',
+        'license_code_exists' => 'Ang ibinigay na license code ay umiiral na, pakisuri muli.',
+        'license_not_exist' => 'Ang ibinigay na lisensya ay hindi umiiral, pakisuri muli.',
+        'license_code_incorrect' => 'Ang tinukoy na license code ay mali, pakisuri muli.',
+        'license_not_added' => 'May naganap na error, hindi naidagdag ang lisensya.',
+        'license_not_edited' => 'May naganap na error, hindi na-edit ang lisensya.',
+        'license_not_deleted' => 'Ang lisensya :code ay hindi natanggal, pakisuri muli.',
+        'license_already_status' => 'Ang lisensya :code ay :status na.',
+        'client_email_invalid' => 'Ang ibinigay na email address ng kliyente ay mali, pakisuri.',
+        'no_search_keyword' => 'Walang ibinigay na keyword para sa paghahanap. Pakisuri at subukan muli.',
+        'no_license_found' => 'Walang nahanap na katumbas na lisensya.',
+        'version_created' => 'Matagumpay na nalikha/na-update ang bersyon.',
+    ],
+    'success' => [
+        'product_added' => 'Ang bagong produkto :name na may ID :id ay matagumpay na naidagdag.',
+        'product_status_changed' => 'Ang produkto :name ay minarkahan bilang :status.',
+        'license_added' => 'Ang bagong :product lisensya :code ay matagumpay na naidagdag.',
+        'license_edited' => 'Ang lisensya :code ay matagumpay na na-edit.',
+        'license_deleted' => 'Ang lisensya :code ay matagumpay na natanggal.',
+        'license_status_changed' => 'Ang lisensya :code ay matagumpay na :status.',
+        'activations_deactivated' => 'Ang lisensya :code ay matagumpay na na-deactivate.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Bagong produkto <b>:name</b> ay naidagdag.',
+        'product_status_changed' => 'Ang status ng produkto <b>:name</b> ay binago sa :status.',
+        'license_added' => 'Bagong :product lisensya <b>:code</b> ay naidagdag.',
+        'license_edited' => 'Ang lisensya <b>:code</b> ay na-edit.',
+        'license_deleted' => 'Ang lisensya <b>:code</b> ay tinanggal.',
+        'license_status_changed' => 'Ang lisensya <b>:code</b> :status.',
+        'activations_deactivated' => 'Ang mga activation ng lisensya <b>:code</b> ay na-deactivate.',
+    ],
+];

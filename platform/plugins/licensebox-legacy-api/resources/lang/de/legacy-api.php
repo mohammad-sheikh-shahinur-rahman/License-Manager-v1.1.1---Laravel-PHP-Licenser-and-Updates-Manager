@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Falsche Methode oder fehlende Werte, bitte überprüfen.',
+        'product_id_incorrect' => 'Die angegebene Produkt-ID ist falsch, bitte erneut überprüfen.',
+        'product_id_invalid' => 'Die angegebene Produkt-ID ist ungültig, bitte überprüfen.',
+        'product_id_exists' => 'Die angegebene Produkt-ID existiert bereits, bitte erneut überprüfen.',
+        'product_not_added' => 'Ein Fehler ist aufgetreten, das Produkt wurde nicht hinzugefügt.',
+        'product_not_found' => 'Produkt nicht gefunden.',
+        'product_already_status' => 'Produkt :name ist bereits :status.',
+        'license_code_invalid' => 'Der angegebene Lizenzcode ist ungültig, bitte überprüfen.',
+        'license_code_exists' => 'Der angegebene Lizenzcode existiert bereits, bitte erneut überprüfen.',
+        'license_not_exist' => 'Die angegebene Lizenz existiert nicht, bitte erneut überprüfen.',
+        'license_code_incorrect' => 'Der angegebene Lizenzcode ist falsch, bitte erneut überprüfen.',
+        'license_not_added' => 'Ein Fehler ist aufgetreten, die Lizenz wurde nicht hinzugefügt.',
+        'license_not_edited' => 'Ein Fehler ist aufgetreten, die Lizenz wurde nicht bearbeitet.',
+        'license_not_deleted' => 'Lizenz :code wurde nicht gelöscht, bitte erneut überprüfen.',
+        'license_already_status' => 'Lizenz :code ist bereits :status.',
+        'client_email_invalid' => 'Die angegebene Kunden-E-Mail-Adresse ist falsch, bitte überprüfen.',
+        'no_search_keyword' => 'Es wurden keine Suchbegriffe für die Suche angegeben. Bitte überprüfen und erneut versuchen.',
+        'no_license_found' => 'Es wurde keine entsprechende Lizenz gefunden.',
+        'version_created' => 'Version erfolgreich erstellt/aktualisiert.',
+    ],
+    'success' => [
+        'product_added' => 'Neues Produkt :name mit ID :id wurde erfolgreich hinzugefügt.',
+        'product_status_changed' => 'Produkt :name als :status markiert.',
+        'license_added' => 'Neue :product Lizenz :code wurde erfolgreich hinzugefügt.',
+        'license_edited' => 'Lizenz :code wurde erfolgreich bearbeitet.',
+        'license_deleted' => 'Lizenz :code wurde erfolgreich gelöscht.',
+        'license_status_changed' => 'Lizenz :code wurde erfolgreich :status.',
+        'activations_deactivated' => 'Lizenz :code wurde erfolgreich deaktiviert.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Neues Produkt <b>:name</b> hinzugefügt.',
+        'product_status_changed' => 'Produktstatus <b>:name</b> geändert auf :status.',
+        'license_added' => 'Neue :product Lizenz <b>:code</b> hinzugefügt.',
+        'license_edited' => 'Lizenz <b>:code</b> bearbeitet.',
+        'license_deleted' => 'Lizenz <b>:code</b> gelöscht.',
+        'license_status_changed' => 'Lizenz <b>:code</b> :status.',
+        'activations_deactivated' => 'Aktivierungen der Lizenz <b>:code</b> deaktiviert.',
+    ],
+];

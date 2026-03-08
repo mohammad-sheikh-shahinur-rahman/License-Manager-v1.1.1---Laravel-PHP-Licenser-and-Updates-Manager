@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => '또는 계속하기',
+        'sign_in_with_envato' => 'Envato로 로그인',
+        'login' => '로그인',
+        'forgot_password' => '비밀번호 찾기',
+        'forgot_your_password' => '비밀번호를 잊으셨나요?',
+        'reset_password' => '비밀번호 재설정',
+        'email' => '이메일',
+        'password' => '비밀번호',
+        'remember_me' => '로그인 상태 유지',
+        'submit' => '제출',
+        'back_to_login_page' => '로그인 페이지로 돌아가기',
+        'new_password' => '새 비밀번호',
+        'confirm_new_password' => '새 비밀번호 확인',
+        'update' => '업데이트',
+    ],
+    'dashboard' => '대시보드',
+    'settings' => '설정',
+    'basic_setting' => '기본 설정',
+    'basic_form' => [
+        'name' => '이름',
+        'client_id' => '클라이언트 ID',
+        'client_id_description' => 'Envato Market에서 동기화된 클라이언트 ID입니다.',
+        'email' => '이메일',
+        'success' => '정보가 성공적으로 업데이트되었습니다.',
+    ],
+    'avatar_setting' => '아바타 설정',
+    'avatar_form' => [
+        'avatar' => '아바타',
+        'success' => '아바타가 성공적으로 업데이트되었습니다.',
+    ],
+    'password_setting' => '비밀번호 설정',
+    'password_form' => [
+        'old_password' => '현재 비밀번호',
+        'new_password' => '새 비밀번호',
+        'new_password_confirmation' => '새 비밀번호 확인',
+        'success' => '비밀번호가 성공적으로 업데이트되었습니다.',
+    ],
+    'menu' => '메뉴',
+    'buy_products' => '제품 구매',
+    'last_login_at' => '마지막 로그인',
+];

@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Virheellinen menetelmä tai puuttuvia arvoja, tarkista.',
+        'product_id_incorrect' => 'Määritetty tuotetunnus on virheellinen, tarkista uudelleen.',
+        'product_id_invalid' => 'Annettu tuotetunnus on virheellinen, tarkista.',
+        'product_id_exists' => 'Annettu tuotetunnus on jo olemassa, tarkista uudelleen.',
+        'product_not_added' => 'Tapahtui virhe, tuotetta ei lisätty.',
+        'product_not_found' => 'Tuotetta ei löytynyt.',
+        'product_already_status' => 'Tuote :name on jo :status.',
+        'license_code_invalid' => 'Annettu lisenssikoodi on virheellinen, tarkista.',
+        'license_code_exists' => 'Annettu lisenssikoodi on jo olemassa, tarkista uudelleen.',
+        'license_not_exist' => 'Annettua lisenssiä ei ole olemassa, tarkista uudelleen.',
+        'license_code_incorrect' => 'Määritetty lisenssikoodi on virheellinen, tarkista uudelleen.',
+        'license_not_added' => 'Tapahtui virhe, lisenssiä ei lisätty.',
+        'license_not_edited' => 'Tapahtui virhe, lisenssiä ei muokattu.',
+        'license_not_deleted' => 'Lisenssiä :code ei poistettu, tarkista uudelleen.',
+        'license_already_status' => 'Lisenssi :code on jo :status.',
+        'client_email_invalid' => 'Annettu asiakkaan sähköpostiosoite on virheellinen, tarkista.',
+        'no_search_keyword' => 'Haulle ei annettu hakusanoja. Tarkista ja yritä uudelleen.',
+        'no_license_found' => 'Vastaavaa lisenssiä ei löytynyt.',
+        'version_created' => 'Versio luotu/päivitetty onnistuneesti.',
+    ],
+    'success' => [
+        'product_added' => 'Uusi tuote :name tunnuksella :id lisättiin onnistuneesti.',
+        'product_status_changed' => 'Tuote :name merkitty :status.',
+        'license_added' => 'Uusi :product lisenssi :code lisättiin onnistuneesti.',
+        'license_edited' => 'Lisenssi :code muokattiin onnistuneesti.',
+        'license_deleted' => 'Lisenssi :code poistettiin onnistuneesti.',
+        'license_status_changed' => 'Lisenssi :code onnistuneesti :status.',
+        'activations_deactivated' => 'Lisenssi :code poistettiin käytöstä onnistuneesti.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Uusi tuote <b>:name</b> lisätty.',
+        'product_status_changed' => 'Tuotteen <b>:name</b> tila muutettu :status.',
+        'license_added' => 'Uusi :product lisenssi <b>:code</b> lisätty.',
+        'license_edited' => 'Lisenssi <b>:code</b> muokattu.',
+        'license_deleted' => 'Lisenssi <b>:code</b> poistettu.',
+        'license_status_changed' => 'Lisenssi <b>:code</b> :status.',
+        'activations_deactivated' => 'Lisenssin <b>:code</b> aktivoinnit poistettu käytöstä.',
+    ],
+];

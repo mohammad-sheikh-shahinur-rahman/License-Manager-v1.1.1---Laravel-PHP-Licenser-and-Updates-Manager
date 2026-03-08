@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Kaedah tidak betul atau nilai hilang, sila semak.',
+        'product_id_incorrect' => 'ID produk yang ditentukan tidak betul, sila semak semula.',
+        'product_id_invalid' => 'ID produk yang diberikan tidak sah, sila semak.',
+        'product_id_exists' => 'ID produk yang diberikan sudah wujud, sila semak semula.',
+        'product_not_added' => 'Ralat berlaku, produk tidak ditambah.',
+        'product_not_found' => 'Produk tidak dijumpai.',
+        'product_already_status' => 'Produk :name sudah :status.',
+        'license_code_invalid' => 'Kod lesen yang diberikan tidak sah, sila semak.',
+        'license_code_exists' => 'Kod lesen yang diberikan sudah wujud, sila semak semula.',
+        'license_not_exist' => 'Lesen yang diberikan tidak wujud, sila semak semula.',
+        'license_code_incorrect' => 'Kod lesen yang ditentukan tidak betul, sila semak semula.',
+        'license_not_added' => 'Ralat berlaku, lesen tidak ditambah.',
+        'license_not_edited' => 'Ralat berlaku, lesen tidak disunting.',
+        'license_not_deleted' => 'Lesen :code tidak dipadamkan, sila semak semula.',
+        'license_already_status' => 'Lesen :code sudah :status.',
+        'client_email_invalid' => 'Alamat e-mel klien yang diberikan tidak betul, sila semak.',
+        'no_search_keyword' => 'Tiada kata kunci yang diberikan untuk carian. Sila semak dan cuba lagi.',
+        'no_license_found' => 'Tiada lesen yang sepadan dijumpai.',
+        'version_created' => 'Versi berjaya dicipta/dikemaskini.',
+    ],
+    'success' => [
+        'product_added' => 'Produk baru :name dengan ID :id berjaya ditambah.',
+        'product_status_changed' => 'Produk :name ditandakan sebagai :status.',
+        'license_added' => 'Lesen :product baru :code berjaya ditambah.',
+        'license_edited' => 'Lesen :code berjaya disunting.',
+        'license_deleted' => 'Lesen :code berjaya dipadamkan.',
+        'license_status_changed' => 'Lesen :code berjaya :status.',
+        'activations_deactivated' => 'Lesen :code berjaya dinyahaktifkan.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Produk baru <b>:name</b> ditambah.',
+        'product_status_changed' => 'Status produk <b>:name</b> ditukar kepada :status.',
+        'license_added' => 'Lesen :product baru <b>:code</b> ditambah.',
+        'license_edited' => 'Lesen <b>:code</b> disunting.',
+        'license_deleted' => 'Lesen <b>:code</b> dipadamkan.',
+        'license_status_changed' => 'Lesen <b>:code</b> :status.',
+        'activations_deactivated' => 'Pengaktifan lesen <b>:code</b> dinyahaktifkan.',
+    ],
+];

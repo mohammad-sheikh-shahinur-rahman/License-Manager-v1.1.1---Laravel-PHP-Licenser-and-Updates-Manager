@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'sau continuă cu',
+        'sign_in_with_envato' => 'Conectează-te cu Envato',
+        'login' => 'Conectare',
+        'forgot_password' => 'Parolă uitată',
+        'forgot_your_password' => 'Ți-ai uitat parola?',
+        'reset_password' => 'Resetare parolă',
+        'email' => 'Email',
+        'password' => 'Parolă',
+        'remember_me' => 'Ține-mă minte',
+        'submit' => 'Trimite',
+        'back_to_login_page' => 'Înapoi la pagina de conectare',
+        'new_password' => 'Parolă nouă',
+        'confirm_new_password' => 'Confirmă parola nouă',
+        'update' => 'Actualizează',
+    ],
+    'dashboard' => 'Panou de control',
+    'settings' => 'Setări',
+    'basic_setting' => 'Setări de bază',
+    'basic_form' => [
+        'name' => 'Nume',
+        'client_id' => 'ID client',
+        'client_id_description' => 'Acesta este ID-ul tău de client sincronizat de la Envato Market.',
+        'email' => 'Email',
+        'success' => 'Informațiile tale au fost actualizate cu succes.',
+    ],
+    'avatar_setting' => 'Setări avatar',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Avatarul tău a fost actualizat cu succes.',
+    ],
+    'password_setting' => 'Setări parolă',
+    'password_form' => [
+        'old_password' => 'Parolă veche',
+        'new_password' => 'Parolă nouă',
+        'new_password_confirmation' => 'Confirmă parola nouă',
+        'success' => 'Parola ta a fost actualizată cu succes.',
+    ],
+    'menu' => 'Meniu',
+    'buy_products' => 'Cumpără produse',
+    'last_login_at' => 'Ultima conectare',
+];

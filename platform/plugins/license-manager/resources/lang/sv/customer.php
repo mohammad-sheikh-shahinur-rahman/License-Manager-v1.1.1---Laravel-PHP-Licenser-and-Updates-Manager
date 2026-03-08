@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'eller fortsätt med',
+        'sign_in_with_envato' => 'Logga in med Envato',
+        'login' => 'Logga in',
+        'forgot_password' => 'Glömt lösenord',
+        'forgot_your_password' => 'Glömt ditt lösenord?',
+        'reset_password' => 'Återställ lösenord',
+        'email' => 'E-post',
+        'password' => 'Lösenord',
+        'remember_me' => 'Kom ihåg mig',
+        'submit' => 'Skicka',
+        'back_to_login_page' => 'Tillbaka till inloggningssidan',
+        'new_password' => 'Nytt lösenord',
+        'confirm_new_password' => 'Bekräfta nytt lösenord',
+        'update' => 'Uppdatera',
+    ],
+    'dashboard' => 'Instrumentpanel',
+    'settings' => 'Inställningar',
+    'basic_setting' => 'Grundläggande inställning',
+    'basic_form' => [
+        'name' => 'Namn',
+        'client_id' => 'Klient-ID',
+        'client_id_description' => 'Detta är ditt klient-ID synkroniserat från Envato Market.',
+        'email' => 'E-post',
+        'success' => 'Din information har uppdaterats.',
+    ],
+    'avatar_setting' => 'Avatar-inställning',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Din avatar har uppdaterats.',
+    ],
+    'password_setting' => 'Lösenordsinställning',
+    'password_form' => [
+        'old_password' => 'Gammalt lösenord',
+        'new_password' => 'Nytt lösenord',
+        'new_password_confirmation' => 'Bekräfta nytt lösenord',
+        'success' => 'Ditt lösenord har uppdaterats.',
+    ],
+    'menu' => 'Meny',
+    'buy_products' => 'Köp produkter',
+    'last_login_at' => 'Senast inloggad',
+];

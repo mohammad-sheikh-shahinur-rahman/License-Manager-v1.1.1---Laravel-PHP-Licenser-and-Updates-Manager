@@ -1,0 +1,11 @@
+{
+    "id": "botble/license-manager",
+    "name": "License Manager",
+    "namespace": "Botble\\LicenseManager\\",
+    "provider": "Botble\\LicenseManager\\Providers\\LicenseManagerServiceProvider",
+    "author": "Botble Technologies",
+    "url": "https://botble.com",
+    "version": "1.1.0",
+    "description": "License management system for software products",
+    "minimum_core_version": "7.3.0"
+}

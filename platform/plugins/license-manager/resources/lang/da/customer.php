@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'eller fortsæt med',
+        'sign_in_with_envato' => 'Log ind med Envato',
+        'login' => 'Log ind',
+        'forgot_password' => 'Glemt adgangskode',
+        'forgot_your_password' => 'Glemt din adgangskode?',
+        'reset_password' => 'Nulstil adgangskode',
+        'email' => 'E-mail',
+        'password' => 'Adgangskode',
+        'remember_me' => 'Husk mig',
+        'submit' => 'Indsend',
+        'back_to_login_page' => 'Tilbage til loginside',
+        'new_password' => 'Ny adgangskode',
+        'confirm_new_password' => 'Bekræft ny adgangskode',
+        'update' => 'Opdater',
+    ],
+    'dashboard' => 'Dashboard',
+    'settings' => 'Indstillinger',
+    'basic_setting' => 'Grundlæggende indstilling',
+    'basic_form' => [
+        'name' => 'Navn',
+        'client_id' => 'Klient-ID',
+        'client_id_description' => 'Dette er dit klient-ID synkroniseret fra Envato Market.',
+        'email' => 'E-mail',
+        'success' => 'Dine oplysninger er blevet opdateret.',
+    ],
+    'avatar_setting' => 'Avatar-indstilling',
+    'avatar_form' => [
+        'avatar' => 'Avatar',
+        'success' => 'Din avatar er blevet opdateret.',
+    ],
+    'password_setting' => 'Adgangskodeindstilling',
+    'password_form' => [
+        'old_password' => 'Gammel adgangskode',
+        'new_password' => 'Ny adgangskode',
+        'new_password_confirmation' => 'Bekræft ny adgangskode',
+        'success' => 'Din adgangskode er blevet opdateret.',
+    ],
+    'menu' => 'Menu',
+    'buy_products' => 'Køb produkter',
+    'last_login_at' => 'Sidst logget ind',
+];

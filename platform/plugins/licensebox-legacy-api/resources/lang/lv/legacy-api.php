@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Nepareiza metode vai trūkst vērtību, lūdzu pārbaudiet.',
+        'product_id_incorrect' => 'Norādītais produkta ID ir nepareizs, lūdzu pārbaudiet vēlreiz.',
+        'product_id_invalid' => 'Norādītais produkta ID ir nederīgs, lūdzu pārbaudiet.',
+        'product_id_exists' => 'Norādītais produkta ID jau eksistē, lūdzu pārbaudiet vēlreiz.',
+        'product_not_added' => 'Radās kļūda, produkts netika pievienots.',
+        'product_not_found' => 'Produkts nav atrasts.',
+        'product_already_status' => 'Produkts :name jau ir :status.',
+        'license_code_invalid' => 'Norādītais licences kods ir nederīgs, lūdzu pārbaudiet.',
+        'license_code_exists' => 'Norādītais licences kods jau eksistē, lūdzu pārbaudiet vēlreiz.',
+        'license_not_exist' => 'Norādītā licence neeksistē, lūdzu pārbaudiet vēlreiz.',
+        'license_code_incorrect' => 'Norādītais licences kods ir nepareizs, lūdzu pārbaudiet vēlreiz.',
+        'license_not_added' => 'Radās kļūda, licence netika pievienota.',
+        'license_not_edited' => 'Radās kļūda, licence netika rediģēta.',
+        'license_not_deleted' => 'Licence :code netika dzēsta, lūdzu pārbaudiet vēlreiz.',
+        'license_already_status' => 'Licence :code jau ir :status.',
+        'client_email_invalid' => 'Norādītā klienta e-pasta adrese ir nepareiza, lūdzu pārbaudiet.',
+        'no_search_keyword' => 'Nav sniegti meklēšanas atslēgvārdi. Lūdzu pārbaudiet un mēģiniet vēlreiz.',
+        'no_license_found' => 'Nav atrasta atbilstoša licence.',
+        'version_created' => 'Versija veiksmīgi izveidota/atjaunināta.',
+    ],
+    'success' => [
+        'product_added' => 'Jaunais produkts :name ar ID :id veiksmīgi pievienots.',
+        'product_status_changed' => 'Produkts :name atzīmēts kā :status.',
+        'license_added' => 'Jauna :product licence :code veiksmīgi pievienota.',
+        'license_edited' => 'Licence :code veiksmīgi rediģēta.',
+        'license_deleted' => 'Licence :code veiksmīgi dzēsta.',
+        'license_status_changed' => 'Licence :code veiksmīgi :status.',
+        'activations_deactivated' => 'Licence :code veiksmīgi deaktivizēta.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Pievienots jauns produkts <b>:name</b>.',
+        'product_status_changed' => 'Produkta <b>:name</b> statuss mainīts uz :status.',
+        'license_added' => 'Pievienota jauna :product licence <b>:code</b>.',
+        'license_edited' => 'Licence <b>:code</b> rediģēta.',
+        'license_deleted' => 'Licence <b>:code</b> dzēsta.',
+        'license_status_changed' => 'Licence <b>:code</b> :status.',
+        'activations_deactivated' => 'Licences <b>:code</b> aktivizācijas deaktivizētas.',
+    ],
+];

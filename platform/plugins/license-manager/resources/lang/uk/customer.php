@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'або продовжте з',
+        'sign_in_with_envato' => 'Увійти через Envato',
+        'login' => 'Вхід',
+        'forgot_password' => 'Забули пароль',
+        'forgot_your_password' => 'Забули свій пароль?',
+        'reset_password' => 'Скинути пароль',
+        'email' => 'Email',
+        'password' => 'Пароль',
+        'remember_me' => 'Запам\'ятати мене',
+        'submit' => 'Надіслати',
+        'back_to_login_page' => 'Повернутися до сторінки входу',
+        'new_password' => 'Новий пароль',
+        'confirm_new_password' => 'Підтвердіть новий пароль',
+        'update' => 'Оновити',
+    ],
+    'dashboard' => 'Панель керування',
+    'settings' => 'Налаштування',
+    'basic_setting' => 'Основні налаштування',
+    'basic_form' => [
+        'name' => 'Ім\'я',
+        'client_id' => 'ID клієнта',
+        'client_id_description' => 'Це ваш ID клієнта, синхронізований з Envato Market.',
+        'email' => 'Email',
+        'success' => 'Вашу інформацію успішно оновлено.',
+    ],
+    'avatar_setting' => 'Налаштування аватара',
+    'avatar_form' => [
+        'avatar' => 'Аватар',
+        'success' => 'Ваш аватар успішно оновлено.',
+    ],
+    'password_setting' => 'Налаштування пароля',
+    'password_form' => [
+        'old_password' => 'Старий пароль',
+        'new_password' => 'Новий пароль',
+        'new_password_confirmation' => 'Підтвердіть новий пароль',
+        'success' => 'Ваш пароль успішно оновлено.',
+    ],
+    'menu' => 'Меню',
+    'buy_products' => 'Купити продукти',
+    'last_login_at' => 'Останній вхід',
+];

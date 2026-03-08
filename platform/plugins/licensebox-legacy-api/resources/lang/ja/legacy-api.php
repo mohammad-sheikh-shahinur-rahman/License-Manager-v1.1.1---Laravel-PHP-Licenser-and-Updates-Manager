@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => '不正なメソッドまたは値が不足しています。確認してください。',
+        'product_id_incorrect' => '指定された製品IDが正しくありません。再確認してください。',
+        'product_id_invalid' => '提供された製品IDが無効です。確認してください。',
+        'product_id_exists' => '提供された製品IDは既に存在します。再確認してください。',
+        'product_not_added' => 'エラーが発生しました。製品は追加されませんでした。',
+        'product_not_found' => '製品が見つかりません。',
+        'product_already_status' => '製品 :name は既に :status です。',
+        'license_code_invalid' => '提供されたライセンスコードが無効です。確認してください。',
+        'license_code_exists' => '提供されたライセンスコードは既に存在します。再確認してください。',
+        'license_not_exist' => '提供されたライセンスは存在しません。再確認してください。',
+        'license_code_incorrect' => '指定されたライセンスコードが正しくありません。再確認してください。',
+        'license_not_added' => 'エラーが発生しました。ライセンスは追加されませんでした。',
+        'license_not_edited' => 'エラーが発生しました。ライセンスは編集されませんでした。',
+        'license_not_deleted' => 'ライセンス :code は削除されませんでした。再確認してください。',
+        'license_already_status' => 'ライセンス :code は既に :status です。',
+        'client_email_invalid' => '提供されたクライアントのメールアドレスが正しくありません。確認してください。',
+        'no_search_keyword' => '検索用のキーワードが提供されていません。確認して再試行してください。',
+        'no_license_found' => '対応するライセンスが見つかりませんでした。',
+        'version_created' => 'バージョンが正常に作成/更新されました。',
+    ],
+    'success' => [
+        'product_added' => 'ID :id の新しい製品 :name が正常に追加されました。',
+        'product_status_changed' => '製品 :name を :status としてマークしました。',
+        'license_added' => '新しい :product ライセンス :code が正常に追加されました。',
+        'license_edited' => 'ライセンス :code が正常に編集されました。',
+        'license_deleted' => 'ライセンス :code が正常に削除されました。',
+        'license_status_changed' => 'ライセンス :code が正常に :status されました。',
+        'activations_deactivated' => 'ライセンス :code が正常に非アクティブ化されました。',
+    ],
+    'activity_log' => [
+        'product_added' => '新しい製品 <b>:name</b> が追加されました。',
+        'product_status_changed' => '製品 <b>:name</b> のステータスが :status に変更されました。',
+        'license_added' => '新しい :product ライセンス <b>:code</b> が追加されました。',
+        'license_edited' => 'ライセンス <b>:code</b> が編集されました。',
+        'license_deleted' => 'ライセンス <b>:code</b> が削除されました。',
+        'license_status_changed' => 'ライセンス <b>:code</b> が :status されました。',
+        'activations_deactivated' => 'ライセンス <b>:code</b> のアクティベーションが非アクティブ化されました。',
+    ],
+];

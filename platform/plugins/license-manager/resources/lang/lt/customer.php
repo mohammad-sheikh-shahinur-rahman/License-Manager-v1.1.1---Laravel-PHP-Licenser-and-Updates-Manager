@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'arba tęskite su',
+        'sign_in_with_envato' => 'Prisijunkite su Envato',
+        'login' => 'Prisijungti',
+        'forgot_password' => 'Pamiršote slaptažodį',
+        'forgot_your_password' => 'Pamiršote slaptažodį?',
+        'reset_password' => 'Atstatyti slaptažodį',
+        'email' => 'El. paštas',
+        'password' => 'Slaptažodis',
+        'remember_me' => 'Prisiminti mane',
+        'submit' => 'Pateikti',
+        'back_to_login_page' => 'Atgal į prisijungimo puslapį',
+        'new_password' => 'Naujas slaptažodis',
+        'confirm_new_password' => 'Patvirtinti naują slaptažodį',
+        'update' => 'Atnaujinti',
+    ],
+    'dashboard' => 'Skydelis',
+    'settings' => 'Nustatymai',
+    'basic_setting' => 'Pagrindinis nustatymas',
+    'basic_form' => [
+        'name' => 'Vardas',
+        'client_id' => 'Kliento ID',
+        'client_id_description' => 'Tai yra jūsų kliento ID, sinchronizuotas iš Envato Market.',
+        'email' => 'El. paštas',
+        'success' => 'Jūsų informacija sėkmingai atnaujinta.',
+    ],
+    'avatar_setting' => 'Avataro nustatymas',
+    'avatar_form' => [
+        'avatar' => 'Avataras',
+        'success' => 'Jūsų avataras sėkmingai atnaujintas.',
+    ],
+    'password_setting' => 'Slaptažodžio nustatymas',
+    'password_form' => [
+        'old_password' => 'Senas slaptažodis',
+        'new_password' => 'Naujas slaptažodis',
+        'new_password_confirmation' => 'Patvirtinti naują slaptažodį',
+        'success' => 'Jūsų slaptažodis sėkmingai atnaujintas.',
+    ],
+    'menu' => 'Meniu',
+    'buy_products' => 'Pirkti produktus',
+    'last_login_at' => 'Paskutinį kartą prisijungta',
+];

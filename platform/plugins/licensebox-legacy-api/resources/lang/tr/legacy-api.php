@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Yanlış yöntem veya eksik değerler, lütfen kontrol edin.',
+        'product_id_incorrect' => 'Belirtilen ürün ID\'si yanlış, lütfen tekrar kontrol edin.',
+        'product_id_invalid' => 'Sağlanan ürün ID\'si geçersiz, lütfen kontrol edin.',
+        'product_id_exists' => 'Sağlanan ürün ID\'si zaten mevcut, lütfen tekrar kontrol edin.',
+        'product_not_added' => 'Bir hata oluştu, ürün eklenmedi.',
+        'product_not_found' => 'Ürün bulunamadı.',
+        'product_already_status' => 'Ürün :name zaten :status.',
+        'license_code_invalid' => 'Sağlanan lisans kodu geçersiz, lütfen kontrol edin.',
+        'license_code_exists' => 'Sağlanan lisans kodu zaten mevcut, lütfen tekrar kontrol edin.',
+        'license_not_exist' => 'Sağlanan lisans mevcut değil, lütfen tekrar kontrol edin.',
+        'license_code_incorrect' => 'Belirtilen lisans kodu yanlış, lütfen tekrar kontrol edin.',
+        'license_not_added' => 'Bir hata oluştu, lisans eklenmedi.',
+        'license_not_edited' => 'Bir hata oluştu, lisans düzenlenmedi.',
+        'license_not_deleted' => 'Lisans :code silinmedi, lütfen tekrar kontrol edin.',
+        'license_already_status' => 'Lisans :code zaten :status.',
+        'client_email_invalid' => 'Sağlanan müşteri e-posta adresi yanlış, lütfen kontrol edin.',
+        'no_search_keyword' => 'Arama için anahtar kelime sağlanmadı. Lütfen kontrol edin ve tekrar deneyin.',
+        'no_license_found' => 'Karşılık gelen lisans bulunamadı.',
+        'version_created' => 'Sürüm başarıyla oluşturuldu/güncellendi.',
+    ],
+    'success' => [
+        'product_added' => 'Yeni ürün :name, :id ID\'si ile başarıyla eklendi.',
+        'product_status_changed' => 'Ürün :name, :status olarak işaretlendi.',
+        'license_added' => 'Yeni :product lisansı :code başarıyla eklendi.',
+        'license_edited' => 'Lisans :code başarıyla düzenlendi.',
+        'license_deleted' => 'Lisans :code başarıyla silindi.',
+        'license_status_changed' => 'Lisans :code başarıyla :status.',
+        'activations_deactivated' => 'Lisans :code başarıyla devre dışı bırakıldı.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Yeni ürün <b>:name</b> eklendi.',
+        'product_status_changed' => 'Ürün <b>:name</b> durumu :status olarak değiştirildi.',
+        'license_added' => 'Yeni :product lisansı <b>:code</b> eklendi.',
+        'license_edited' => 'Lisans <b>:code</b> düzenlendi.',
+        'license_deleted' => 'Lisans <b>:code</b> silindi.',
+        'license_status_changed' => 'Lisans <b>:code</b> :status.',
+        'activations_deactivated' => 'Lisans <b>:code</b> aktivasyonları devre dışı bırakıldı.',
+    ],
+];

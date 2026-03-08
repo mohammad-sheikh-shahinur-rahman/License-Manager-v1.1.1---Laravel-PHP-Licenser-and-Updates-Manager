@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Netočna metoda ili nedostajuće vrijednosti, molimo provjerite.',
+        'product_id_incorrect' => 'Navedeni ID proizvoda je netočan, molimo provjerite ponovno.',
+        'product_id_invalid' => 'Navedeni ID proizvoda je nevažeći, molimo provjerite.',
+        'product_id_exists' => 'Navedeni ID proizvoda već postoji, molimo provjerite ponovno.',
+        'product_not_added' => 'Došlo je do greške, proizvod nije dodan.',
+        'product_not_found' => 'Proizvod nije pronađen.',
+        'product_already_status' => 'Proizvod :name je već :status.',
+        'license_code_invalid' => 'Navedeni kod licence je nevažeći, molimo provjerite.',
+        'license_code_exists' => 'Navedeni kod licence već postoji, molimo provjerite ponovno.',
+        'license_not_exist' => 'Navedena licenca ne postoji, molimo provjerite ponovno.',
+        'license_code_incorrect' => 'Navedeni kod licence je netočan, molimo provjerite ponovno.',
+        'license_not_added' => 'Došlo je do greške, licenca nije dodana.',
+        'license_not_edited' => 'Došlo je do greške, licenca nije uređena.',
+        'license_not_deleted' => 'Licenca :code nije izbrisana, molimo provjerite ponovno.',
+        'license_already_status' => 'Licenca :code je već :status.',
+        'client_email_invalid' => 'Navedena email adresa klijenta je netočna, molimo provjerite.',
+        'no_search_keyword' => 'Nisu navedene ključne riječi za pretraživanje. Molimo provjerite i pokušajte ponovno.',
+        'no_license_found' => 'Nije pronađena odgovarajuća licenca.',
+        'version_created' => 'Verzija uspješno stvorena/ažurirana.',
+    ],
+    'success' => [
+        'product_added' => 'Novi proizvod :name s ID-om :id uspješno je dodan.',
+        'product_status_changed' => 'Proizvod :name označen kao :status.',
+        'license_added' => 'Nova :product licenca :code uspješno je dodana.',
+        'license_edited' => 'Licenca :code uspješno je uređena.',
+        'license_deleted' => 'Licenca :code uspješno je izbrisana.',
+        'license_status_changed' => 'Licenca :code uspješno :status.',
+        'activations_deactivated' => 'Licenca :code uspješno je deaktivirana.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Dodan novi proizvod <b>:name</b>.',
+        'product_status_changed' => 'Status proizvoda <b>:name</b> promijenjen u :status.',
+        'license_added' => 'Dodana nova :product licenca <b>:code</b>.',
+        'license_edited' => 'Licenca <b>:code</b> uređena.',
+        'license_deleted' => 'Licenca <b>:code</b> izbrisana.',
+        'license_status_changed' => 'Licenca <b>:code</b> :status.',
+        'activations_deactivated' => 'Aktivacije licence <b>:code</b> deaktivirane.',
+    ],
+];

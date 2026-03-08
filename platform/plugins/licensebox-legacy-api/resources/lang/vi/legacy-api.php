@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'Phương thức không đúng hoặc thiếu giá trị, vui lòng kiểm tra.',
+        'product_id_incorrect' => 'ID sản phẩm được chỉ định không chính xác, vui lòng kiểm tra lại.',
+        'product_id_invalid' => 'ID sản phẩm được cung cấp không hợp lệ, vui lòng kiểm tra.',
+        'product_id_exists' => 'ID sản phẩm được cung cấp đã tồn tại, vui lòng kiểm tra lại.',
+        'product_not_added' => 'Đã xảy ra lỗi, sản phẩm chưa được thêm.',
+        'product_not_found' => 'Không tìm thấy sản phẩm.',
+        'product_already_status' => 'Sản phẩm :name đã :status.',
+        'license_code_invalid' => 'Mã giấy phép được cung cấp không hợp lệ, vui lòng kiểm tra.',
+        'license_code_exists' => 'Mã giấy phép được cung cấp đã tồn tại, vui lòng kiểm tra lại.',
+        'license_not_exist' => 'Giấy phép được cung cấp không tồn tại, vui lòng kiểm tra lại.',
+        'license_code_incorrect' => 'Mã giấy phép được chỉ định không chính xác, vui lòng kiểm tra lại.',
+        'license_not_added' => 'Đã xảy ra lỗi, giấy phép chưa được thêm.',
+        'license_not_edited' => 'Đã xảy ra lỗi, giấy phép chưa được chỉnh sửa.',
+        'license_not_deleted' => 'Giấy phép :code chưa được xóa, vui lòng kiểm tra lại.',
+        'license_already_status' => 'Giấy phép :code đã :status.',
+        'client_email_invalid' => 'Địa chỉ email khách hàng được cung cấp không chính xác, vui lòng kiểm tra.',
+        'no_search_keyword' => 'Không có từ khóa nào được cung cấp cho tìm kiếm. Vui lòng kiểm tra và thử lại.',
+        'no_license_found' => 'Không tìm thấy giấy phép tương ứng.',
+        'version_created' => 'Phiên bản đã được tạo/cập nhật thành công.',
+    ],
+    'success' => [
+        'product_added' => 'Sản phẩm mới :name có ID :id đã được thêm thành công.',
+        'product_status_changed' => 'Sản phẩm :name được đánh dấu là :status.',
+        'license_added' => 'Giấy phép :product mới :code đã được thêm thành công.',
+        'license_edited' => 'Giấy phép :code đã được chỉnh sửa thành công.',
+        'license_deleted' => 'Giấy phép :code đã được xóa thành công.',
+        'license_status_changed' => 'Giấy phép :code đã được :status thành công.',
+        'activations_deactivated' => 'Giấy phép :code đã được vô hiệu hóa thành công.',
+    ],
+    'activity_log' => [
+        'product_added' => 'Đã thêm sản phẩm mới <b>:name</b>.',
+        'product_status_changed' => 'Trạng thái sản phẩm <b>:name</b> đã được thay đổi thành :status.',
+        'license_added' => 'Đã thêm giấy phép :product mới <b>:code</b>.',
+        'license_edited' => 'Giấy phép <b>:code</b> đã được chỉnh sửa.',
+        'license_deleted' => 'Giấy phép <b>:code</b> đã được xóa.',
+        'license_status_changed' => 'Giấy phép <b>:code</b> đã :status.',
+        'activations_deactivated' => 'Các kích hoạt của giấy phép <b>:code</b> đã được vô hiệu hóa.',
+    ],
+];

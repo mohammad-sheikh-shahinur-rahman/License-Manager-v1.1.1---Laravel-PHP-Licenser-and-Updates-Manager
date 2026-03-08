@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'または続行',
+        'sign_in_with_envato' => 'Envatoでサインイン',
+        'login' => 'ログイン',
+        'forgot_password' => 'パスワードをお忘れですか',
+        'forgot_your_password' => 'パスワードをお忘れですか？',
+        'reset_password' => 'パスワードをリセット',
+        'email' => 'メールアドレス',
+        'password' => 'パスワード',
+        'remember_me' => 'ログイン状態を保持',
+        'submit' => '送信',
+        'back_to_login_page' => 'ログインページに戻る',
+        'new_password' => '新しいパスワード',
+        'confirm_new_password' => '新しいパスワードを確認',
+        'update' => '更新',
+    ],
+    'dashboard' => 'ダッシュボード',
+    'settings' => '設定',
+    'basic_setting' => '基本設定',
+    'basic_form' => [
+        'name' => '名前',
+        'client_id' => 'クライアントID',
+        'client_id_description' => 'これはEnvato Marketから同期されたクライアントIDです。',
+        'email' => 'メールアドレス',
+        'success' => '情報が正常に更新されました。',
+    ],
+    'avatar_setting' => 'アバター設定',
+    'avatar_form' => [
+        'avatar' => 'アバター',
+        'success' => 'アバターが正常に更新されました。',
+    ],
+    'password_setting' => 'パスワード設定',
+    'password_form' => [
+        'old_password' => '現在のパスワード',
+        'new_password' => '新しいパスワード',
+        'new_password_confirmation' => '新しいパスワードを確認',
+        'success' => 'パスワードが正常に更新されました。',
+    ],
+    'menu' => 'メニュー',
+    'buy_products' => '製品を購入',
+    'last_login_at' => '最終ログイン',
+];

@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'गलत विधि या लापता मान, कृपया जांचें।',
+        'product_id_incorrect' => 'निर्दिष्ट उत्पाद ID गलत है, कृपया फिर से जांचें।',
+        'product_id_invalid' => 'प्रदान की गई उत्पाद ID अमान्य है, कृपया जांचें।',
+        'product_id_exists' => 'प्रदान की गई उत्पाद ID पहले से मौजूद है, कृपया फिर से जांचें।',
+        'product_not_added' => 'एक त्रुटि हुई, उत्पाद नहीं जोड़ा गया।',
+        'product_not_found' => 'उत्पाद नहीं मिला।',
+        'product_already_status' => 'उत्पाद :name पहले से ही :status है।',
+        'license_code_invalid' => 'प्रदान किया गया लाइसेंस कोड अमान्य है, कृपया जांचें।',
+        'license_code_exists' => 'प्रदान किया गया लाइसेंस कोड पहले से मौजूद है, कृपया फिर से जांचें।',
+        'license_not_exist' => 'प्रदान किया गया लाइसेंस मौजूद नहीं है, कृपया फिर से जांचें।',
+        'license_code_incorrect' => 'निर्दिष्ट लाइसेंस कोड गलत है, कृपया फिर से जांचें।',
+        'license_not_added' => 'एक त्रुटि हुई, लाइसेंस नहीं जोड़ा गया।',
+        'license_not_edited' => 'एक त्रुटि हुई, लाइसेंस संपादित नहीं किया गया।',
+        'license_not_deleted' => 'लाइसेंस :code हटाया नहीं गया, कृपया फिर से जांचें।',
+        'license_already_status' => 'लाइसेंस :code पहले से ही :status है।',
+        'client_email_invalid' => 'प्रदान किया गया क्लाइंट ईमेल पता गलत है, कृपया जांचें।',
+        'no_search_keyword' => 'खोज के लिए कोई कीवर्ड प्रदान नहीं किया गया। कृपया जांचें और पुनः प्रयास करें।',
+        'no_license_found' => 'कोई संबंधित लाइसेंस नहीं मिला।',
+        'version_created' => 'संस्करण सफलतापूर्वक बनाया/अपडेट किया गया।',
+    ],
+    'success' => [
+        'product_added' => 'नया उत्पाद :name जिसकी ID :id है, सफलतापूर्वक जोड़ा गया।',
+        'product_status_changed' => 'उत्पाद :name को :status के रूप में चिह्नित किया गया।',
+        'license_added' => 'नया :product लाइसेंस :code सफलतापूर्वक जोड़ा गया।',
+        'license_edited' => 'लाइसेंस :code सफलतापूर्वक संपादित किया गया।',
+        'license_deleted' => 'लाइसेंस :code सफलतापूर्वक हटाया गया।',
+        'license_status_changed' => 'लाइसेंस :code सफलतापूर्वक :status किया गया।',
+        'activations_deactivated' => 'लाइसेंस :code सफलतापूर्वक निष्क्रिय किया गया।',
+    ],
+    'activity_log' => [
+        'product_added' => 'नया उत्पाद <b>:name</b> जोड़ा गया।',
+        'product_status_changed' => 'उत्पाद <b>:name</b> की स्थिति :status में बदली गई।',
+        'license_added' => 'नया :product लाइसेंस <b>:code</b> जोड़ा गया।',
+        'license_edited' => 'लाइसेंस <b>:code</b> संपादित किया गया।',
+        'license_deleted' => 'लाइसेंस <b>:code</b> हटाया गया।',
+        'license_status_changed' => 'लाइसेंस <b>:code</b> :status।',
+        'activations_deactivated' => 'लाइसेंस <b>:code</b> के सक्रियण निष्क्रिय किए गए।',
+    ],
+];

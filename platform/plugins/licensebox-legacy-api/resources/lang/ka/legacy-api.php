@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'errors' => [
+        'missing_values' => 'არასწორი მეთოდი ან გამოტოვებული მნიშვნელობები, გთხოვთ შეამოწმოთ.',
+        'product_id_incorrect' => 'მითითებული პროდუქტის ID არასწორია, გთხოვთ ხელახლა შეამოწმოთ.',
+        'product_id_invalid' => 'მოწოდებული პროდუქტის ID არავალიდურია, გთხოვთ შეამოწმოთ.',
+        'product_id_exists' => 'მოწოდებული პროდუქტის ID უკვე არსებობს, გთხოვთ ხელახლა შეამოწმოთ.',
+        'product_not_added' => 'მოხდა შეცდომა, პროდუქტი არ დაემატა.',
+        'product_not_found' => 'პროდუქტი ვერ მოიძებნა.',
+        'product_already_status' => 'პროდუქტი :name უკვე არის :status.',
+        'license_code_invalid' => 'მოწოდებული ლიცენზიის კოდი არავალიდურია, გთხოვთ შეამოწმოთ.',
+        'license_code_exists' => 'მოწოდებული ლიცენზიის კოდი უკვე არსებობს, გთხოვთ ხელახლა შეამოწმოთ.',
+        'license_not_exist' => 'მოწოდებული ლიცენზია არ არსებობს, გთხოვთ ხელახლა შეამოწმოთ.',
+        'license_code_incorrect' => 'მითითებული ლიცენზიის კოდი არასწორია, გთხოვთ ხელახლა შეამოწმოთ.',
+        'license_not_added' => 'მოხდა შეცდომა, ლიცენზია არ დაემატა.',
+        'license_not_edited' => 'მოხდა შეცდომა, ლიცენზია არ შეიცვალა.',
+        'license_not_deleted' => 'ლიცენზია :code არ წაიშალა, გთხოვთ ხელახლა შეამოწმოთ.',
+        'license_already_status' => 'ლიცენზია :code უკვე არის :status.',
+        'client_email_invalid' => 'მოწოდებული კლიენტის ელფოსტის მისამართი არასწორია, გთხოვთ შეამოწმოთ.',
+        'no_search_keyword' => 'ძიებისთვის საკვანძო სიტყვები არ არის მოწოდებული. გთხოვთ შეამოწმოთ და სცადოთ ხელახლა.',
+        'no_license_found' => 'შესაბამისი ლიცენზია ვერ მოიძებნა.',
+        'version_created' => 'ვერსია წარმატებით შეიქმნა/განახლდა.',
+    ],
+    'success' => [
+        'product_added' => 'ახალი პროდუქტი :name ID-ით :id წარმატებით დაემატა.',
+        'product_status_changed' => 'პროდუქტი :name მონიშნულია როგორც :status.',
+        'license_added' => 'ახალი :product ლიცენზია :code წარმატებით დაემატა.',
+        'license_edited' => 'ლიცენზია :code წარმატებით შეიცვალა.',
+        'license_deleted' => 'ლიცენზია :code წარმატებით წაიშალა.',
+        'license_status_changed' => 'ლიცენზია :code წარმატებით :status.',
+        'activations_deactivated' => 'ლიცენზია :code წარმატებით დეაქტივირდა.',
+    ],
+    'activity_log' => [
+        'product_added' => 'ახალი პროდუქტი <b>:name</b> დაემატა.',
+        'product_status_changed' => 'პროდუქტის <b>:name</b> სტატუსი შეიცვალა :status-ზე.',
+        'license_added' => 'ახალი :product ლიცენზია <b>:code</b> დაემატა.',
+        'license_edited' => 'ლიცენზია <b>:code</b> შეიცვალა.',
+        'license_deleted' => 'ლიცენზია <b>:code</b> წაიშალა.',
+        'license_status_changed' => 'ლიცენზია <b>:code</b> :status.',
+        'activations_deactivated' => 'ლიცენზიის <b>:code</b> აქტივაციები დეაქტივირდა.',
+    ],
+];

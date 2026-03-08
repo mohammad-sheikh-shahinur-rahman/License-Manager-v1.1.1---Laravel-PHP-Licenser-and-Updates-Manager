@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'auth' => [
+        'or_login_with' => 'অথবা চালিয়ে যান',
+        'sign_in_with_envato' => 'Envato দিয়ে সাইন ইন করুন',
+        'login' => 'লগইন',
+        'forgot_password' => 'পাসওয়ার্ড ভুলে গেছেন',
+        'forgot_your_password' => 'আপনার পাসওয়ার্ড ভুলে গেছেন?',
+        'reset_password' => 'পাসওয়ার্ড রিসেট করুন',
+        'email' => 'ইমেইল',
+        'password' => 'পাসওয়ার্ড',
+        'remember_me' => 'আমাকে মনে রাখুন',
+        'submit' => 'জমা দিন',
+        'back_to_login_page' => 'লগইন পেজে ফিরে যান',
+        'new_password' => 'নতুন পাসওয়ার্ড',
+        'confirm_new_password' => 'নতুন পাসওয়ার্ড নিশ্চিত করুন',
+        'update' => 'আপডেট করুন',
+    ],
+    'dashboard' => 'ড্যাশবোর্ড',
+    'settings' => 'সেটিংস',
+    'basic_setting' => 'মৌলিক সেটিং',
+    'basic_form' => [
+        'name' => 'নাম',
+        'client_id' => 'ক্লায়েন্ট আইডি',
+        'client_id_description' => 'এটি Envato Market থেকে সিঙ্ক করা আপনার ক্লায়েন্ট আইডি।',
+        'email' => 'ইমেইল',
+        'success' => 'আপনার তথ্য সফলভাবে আপডেট করা হয়েছে।',
+    ],
+    'avatar_setting' => 'অবতার সেটিং',
+    'avatar_form' => [
+        'avatar' => 'অবতার',
+        'success' => 'আপনার অবতার সফলভাবে আপডেট করা হয়েছে।',
+    ],
+    'password_setting' => 'পাসওয়ার্ড সেটিং',
+    'password_form' => [
+        'old_password' => 'পুরাতন পাসওয়ার্ড',
+        'new_password' => 'নতুন পাসওয়ার্ড',
+        'new_password_confirmation' => 'নতুন পাসওয়ার্ড নিশ্চিত করুন',
+        'success' => 'আপনার পাসওয়ার্ড সফলভাবে আপডেট করা হয়েছে।',
+    ],
+    'menu' => 'মেনু',
+    'buy_products' => 'পণ্য কিনুন',
+    'last_login_at' => 'সর্বশেষ লগইন',
+];

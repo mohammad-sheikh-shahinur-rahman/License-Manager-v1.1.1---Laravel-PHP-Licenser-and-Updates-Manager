@@ -1,0 +1,12 @@
+{
+    "id": "botble/license",
+    "name": "License",
+    "namespace": "Theme\\License\\",
+    "author": "Botble Technologies",
+    "url": "https://botble.com",
+    "version": "1.0.0",
+    "description": "Customer portal theme for License Manager",
+    "required_plugins": [
+        "license-manager"
+    ]
+}
